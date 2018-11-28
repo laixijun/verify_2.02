@@ -1,0 +1,935 @@
+2018-11-05 21:34:59 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"0f79a046-2a31-42bb-81ee-966c2b91be5e"', 'cloudmonitor', 'rc1', 10, '接口测试', 'get', 'http://192.168.2.241:8081/shopweb01/ogi/stores/{storeid}/esls/status/lowpower?threshold=26', 'test', 'storeid:2;', 'code: 1001;msg:success;', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code": "1001", "msg": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 5, 21, 34, 59, 517836)]
+2018-11-05 21:34:59 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"0f79a046-2a31-42bb-81ee-966c2b91be5e"', 'cloudmonitor', 'rc1', 10, '接口测试', 'get', 'http://192.168.2.241:8081/shopweb01/ogi/stores/{storeid}/esls/status/lowpower?threshold=26', 'test', 'storeid:2;', 'code: 1001;msg:success;', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code": "1001", "msg": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 5, 21, 34, 59, 517836)]
+2018-11-05 21:34:59 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:873] {'uuid': '"0f79a046-2a31-42bb-81ee-966c2b91be5e"', 'project_version': 'rc1', 'project_name': 'cloudmonitor', 'code': 1, 'msg': 'suc', 'result': [{'error_result': [], 'exec_time': '2018-11-05 21:34:58', 'id': 1, 'exec_result': 'pass'}, {'error_result': [{'msg': 'fail', 'pro': 'id', 'code': 0}, {'msg': 'fail', 'pro': 'storeCode', 'code': 0}], 'exec_time': '2018-11-05 21:34:58', 'id': 2, 'exec_result': 'fail'}, {'error_result': [], 'exec_time': '2018-11-05 21:34:58', 'id': 3, 'exec_result': 'pass'}, {'error_result': [], 'exec_time': '2018-11-05 21:34:59', 'id': 4, 'exec_result': 'pass'}, {'error_result': [], 'exec_time': '2018-11-05 21:34:59', 'id': 5, 'exec_result': 'pass'}, {'error_result': [{'msg': 'fail', 'pro': 'code', 'code': 0}, {'msg': 'fail', 'pro': 'msg', 'code': 0}], 'exec_time': '2018-11-05 21:34:59', 'id': 6, 'exec_result': 'fail'}, {'error_result': [], 'exec_time': '2018-11-05 21:34:59', 'id': 7, 'exec_result': 'pass'}, {'error_result': [], 'exec_time': '2018-11-05 21:34:59', 'id': 8, 'exec_result': 'pass'}, {'error_result': [], 'exec_time': '2018-11-05 21:34:59', 'id': 9, 'exec_result': 'pass'}, {'error_result': [], 'exec_time': '2018-11-05 21:34:59', 'id': 10, 'exec_result': 'pass'}]}
+2018-11-05 21:34:59 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [05/Nov/2018 21:34:59] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-05 21:39:32 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 09:35:17 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 09:35:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:802] {'project_version': 'V0.1', 'project_name': 'httpbin', 'test_param': [{'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 1, 'URL': 'http://www.httpbin.org/post', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 2, 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age=80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age=80'}, {'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 3, 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age=80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age=80'}]}
+2018-11-06 09:35:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:35:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:35:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:35:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:35:28 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post HTTP/1.1" 200 577
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'ErroCode': None, 'code': 1}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid']]
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}]
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}], datetime.datetime(2018, 11, 6, 9, 35, 30, 247433)], 'ErroCode': None, 'code': 1}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[], 'pass'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"d47fe755-6a7f-4a44-bf88-592d21cdcfa4"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 35, 30, 247433)]
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"d47fe755-6a7f-4a44-bf88-592d21cdcfa4"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 35, 30, 247433)]
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age=80']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age=80']
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:35:30 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 09:35:30] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 09:38:53 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:802] {'project_version': 'V0.1', 'project_name': 'httpbin', 'test_param': [{'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 1, 'URL': 'http://www.httpbin.org/post', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 2, 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age=80'}, {'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 3, 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age=80'}]}
+2018-11-06 09:38:53 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:38:53 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:38:53 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:38:53 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:38:53 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post HTTP/1.1" 200 577
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'ErroCode': None, 'code': 1}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid']]
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}]
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}], datetime.datetime(2018, 11, 6, 9, 38, 54, 138539)], 'ErroCode': None, 'code': 1}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[], 'pass'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"6f8e58ad-4367-482c-9fb6-b1940da27377"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 38, 54, 138539)]
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"6f8e58ad-4367-482c-9fb6-b1940da27377"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 38, 54, 138539)]
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age=80']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age=80']
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Fail', 'desc': '传入用例参数格式有误', 'ErroCode': 801, 'code': 0}
+2018-11-06 09:38:54 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 09:38:54] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:802] {'project_version': 'V0.1', 'project_name': 'httpbin', 'test_param': [{'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 1, 'URL': 'http://www.httpbin.org/post', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 2, 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80'}, {'test_descript': 'test', 'example_json_params': '', 'method': 'post', 'id': 3, 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80'}]}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post HTTP/1.1" 200 577
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid']]
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}]
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}], datetime.datetime(2018, 11, 6, 9, 39, 46, 966187)], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[], 'pass'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:46 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"6a8efa27-4c2b-4bfe-b6e4-aa510f8a37fe"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 39, 46, 966187)]
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"6a8efa27-4c2b-4bfe-b6e4-aa510f8a37fe"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 39, 46, 966187)]
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:54] ['name', 'age']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1220] {name}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1223] http://www.httpbin.org/post?name=xiaomin&age={age}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1220] {age}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1223] http://www.httpbin.org/post?name=xiaomin&age=80
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:69] http://www.httpbin.org/post?name=xiaomin&age=80
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post?name=xiaomin&age=80 HTTP/1.1" 200 640
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {
+    "age": "80", 
+    "name": "xiaomin"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=xiaomin&age=80"
+}
+
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {
+    "age": "80", 
+    "name": "xiaomin"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=xiaomin&age=80"
+}
+
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age']]
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}]
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}], datetime.datetime(2018, 11, 6, 9, 39, 47, 549400)], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[], 'pass'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"6a8efa27-4c2b-4bfe-b6e4-aa510f8a37fe"', 'httpbin', 'V0.1', 2, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 39, 47, 549400)]
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"6a8efa27-4c2b-4bfe-b6e4-aa510f8a37fe"', 'httpbin', 'V0.1', 2, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 9, 39, 47, 549400)]
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:54] ['name', 'age']
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1220] {name}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1223] http://www.httpbin.org/post?name=小明&age={age}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1220] {age}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1223] http://www.httpbin.org/post?name=小明&age=80
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:69] http://www.httpbin.org/post?name=小明&age=80
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?name=小明&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?name=小明&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:47 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post?name=%E5%B0%8F%E6%98%8E&age=80 HTTP/1.1" 200 650
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {
+    "age": "80", 
+    "name": "\u5c0f\u660e"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=\u5c0f\u660e&age=80"
+}
+
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {
+    "age": "80", 
+    "name": "\u5c0f\u660e"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=\u5c0f\u660e&age=80"
+}
+
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'name': '\\u5c0f\\u660e', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'name': '\\u5c0f\\u660e', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'name': '\\u5c0f\\u660e', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age']]
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'fail', 'pro': 'name', 'code': 0}, {'msg': 'suc', 'pro': 'age', 'code': 1}]
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'fail', 'pro': 'name', 'code': 0}, {'msg': 'suc', 'pro': 'age', 'code': 1}], datetime.datetime(2018, 11, 6, 9, 39, 48, 86473)], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1166] [[{"code": 1, "msg": "suc", "pro": "pro_uuid"}, {"code": 0, "msg": "fail", "pro": "name"}, {"code": 1, "msg": "suc", "pro": "age"}], "Tue, 06 Nov 2018 09:39:48 GMT"]
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1168] [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'fail', 'pro': 'name', 'code': 0}, {'msg': 'suc', 'pro': 'age', 'code': 1}], 'Tue, 06 Nov 2018 09:39:48 GMT']
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1169] <class 'list'>
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1171] {'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1172] <class 'dict'>
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1171] {'msg': 'fail', 'pro': 'name', 'code': 0}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1172] <class 'dict'>
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1175] {'msg': 'fail', 'pro': 'name', 'code': 0}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1171] {'msg': 'suc', 'pro': 'age', 'code': 1}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1172] <class 'dict'>
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[{'msg': 'fail', 'pro': 'name', 'code': 0}], 'fail'], 'ErroCode': None, 'code': 1}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"6a8efa27-4c2b-4bfe-b6e4-aa510f8a37fe"', 'httpbin', 'V0.1', 3, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "\\\\u5c0f\\\\u660e", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'fail', '[{"code": 0, "msg": "fail", "pro": "name"}]', datetime.datetime(2018, 11, 6, 9, 39, 48, 86473)]
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"6a8efa27-4c2b-4bfe-b6e4-aa510f8a37fe"', 'httpbin', 'V0.1', 3, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "\\\\u5c0f\\\\u660e", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'fail', '[{"code": 0, "msg": "fail", "pro": "name"}]', datetime.datetime(2018, 11, 6, 9, 39, 48, 86473)]
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:873] {'msg': 'suc', 'project_name': 'httpbin', 'uuid': '"6a8efa27-4c2b-4bfe-b6e4-aa510f8a37fe"', 'result': [{'exec_time': '2018-11-06 09:39:46', 'exec_result': 'pass', 'error_result': [], 'id': 1}, {'exec_time': '2018-11-06 09:39:47', 'exec_result': 'pass', 'error_result': [], 'id': 2}, {'exec_time': '2018-11-06 09:39:48', 'exec_result': 'fail', 'error_result': [{'msg': 'fail', 'pro': 'name', 'code': 0}], 'id': 3}], 'code': 1, 'project_version': 'V0.1'}
+2018-11-06 09:39:48 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 09:39:48] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 09:46:03 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:802] {'project_name': 'httpbin', 'project_version': 'V0.1', 'test_param': [{'infa_name': '接口', 'test_descript': 'test', 'URL': 'http://www.httpbin.org/post', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'id': 1, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'example_json_params': '', 'method': 'post'}, {'infa_name': '接口', 'test_descript': 'test', 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'id': 2, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'example_json_params': '', 'method': 'post'}, {'infa_name': '接口', 'test_descript': 'test', 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'id': 3, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'example_json_params': '', 'method': 'post'}]}
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post']}
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post']}
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'ErroCode': 807, 'Msg': 'Fail', 'code': 0, 'desc': 'url错误,用例id为：1'}
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'ErroCode': 807, 'Msg': 'Fail', 'code': 0, 'desc': 'url错误,用例id为：1'}
+2018-11-06 09:49:29 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 09:49:29] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 10:22:43 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:802] {'test_param': [{'test_descript': 'test', 'method': 'post', 'id': 1, 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'URL': 'http://www.httpbin.org/post', 'example_json_params': ''}, {'test_descript': 'test', 'method': 'post', 'id': 2, 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'example_json_params': ''}, {'test_descript': 'test', 'method': 'post', 'id': 3, 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'URL': 'http://www.httpbin.org/post?age={age}', 'example_json_params': ''}], 'project_version': 'V0.1', 'project_name': 'httpbin'}
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'ErroCode': None, 'code': 1, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post']}
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'ErroCode': None, 'code': 1, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post']}
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Fail', 'ErroCode': 807, 'code': 0, 'desc': 'url错误,用例id为：1'}
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Fail', 'ErroCode': 807, 'code': 0, 'desc': 'url错误,用例id为：1'}
+2018-11-06 10:23:02 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 10:23:02] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 10:23:56 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 10:24:01 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:802] {'test_param': [{'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'id': 1, 'example_json_params': '', 'URL': 'http://www.httpbin.org/post', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'test_descript': 'test', 'method': 'post', 'infa_name': '接口'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'id': 2, 'example_json_params': '', 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'test_descript': 'test', 'method': 'post', 'infa_name': '接口'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'id': 3, 'example_json_params': '', 'URL': 'http://www.httpbin.org/post?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'test_descript': 'test', 'method': 'post', 'infa_name': '接口'}], 'project_name': 'httpbin', 'project_version': 'V0.1'}
+2018-11-06 10:24:01 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:01 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:01 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:01 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:01 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post HTTP/1.1" 200 577
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid']]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}], datetime.datetime(2018, 11, 6, 10, 24, 2, 75991)], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[], 'pass'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"27431dc7-9c5b-4cea-bf14-0c3d74bc4379"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 10, 24, 2, 75991)]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"27431dc7-9c5b-4cea-bf14-0c3d74bc4379"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 10, 24, 2, 75991)]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:54] ['name', 'age']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1220] {age}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1223] http://www.httpbin.org/post?name={name}&age=80
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1220] {name}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1223] http://www.httpbin.org/post?name=xiaomin&age=80
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:69] http://www.httpbin.org/post?name=xiaomin&age=80
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post?name=xiaomin&age=80 HTTP/1.1" 200 640
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {
+    "age": "80", 
+    "name": "xiaomin"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=xiaomin&age=80"
+}
+
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': 'xiaomin'}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {
+    "age": "80", 
+    "name": "xiaomin"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=xiaomin&age=80"
+}
+
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': 'xiaomin'}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': 'xiaomin'}, 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': 'xiaomin'}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': 'xiaomin'}, ['pro_uuid', 'name', 'age']]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}], datetime.datetime(2018, 11, 6, 10, 24, 2, 726936)], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[], 'pass'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"27431dc7-9c5b-4cea-bf14-0c3d74bc4379"', 'httpbin', 'V0.1', 2, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 10, 24, 2, 726936)]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"27431dc7-9c5b-4cea-bf14-0c3d74bc4379"', 'httpbin', 'V0.1', 2, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 10, 24, 2, 726936)]
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:54] ['age']
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1220] {age}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1223] http://www.httpbin.org/post?age=80
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:69] http://www.httpbin.org/post?age=80
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:820] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'Msg': 'Suc', 'desc': ['http://www.httpbin.org/post?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:02 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post?age=80 HTTP/1.1" 200 632
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {
+    "age": "80"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "name": "\u5c0f\u660e", 
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "69", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?age=80"
+}
+
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:684] {
+  "args": {
+    "age": "80"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "name": "\u5c0f\u660e", 
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "69", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?age=80"
+}
+
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '\\u5c0f\\u660e'}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:824] {'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '\\u5c0f\\u660e'}, 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:695] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '\\u5c0f\\u660e'}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:701] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}, ['pro_uuid', 'name', 'age']]
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:788] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'fail', 'pro': 'name', 'code': 0}, {'msg': 'suc', 'pro': 'age', 'code': 1}]
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:826] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'fail', 'pro': 'name', 'code': 0}, {'msg': 'suc', 'pro': 'age', 'code': 1}], datetime.datetime(2018, 11, 6, 10, 24, 3, 342014)], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1166] [[{"code": 1, "msg": "suc", "pro": "pro_uuid"}, {"code": 0, "msg": "fail", "pro": "name"}, {"code": 1, "msg": "suc", "pro": "age"}], "Tue, 06 Nov 2018 10:24:03 GMT"]
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1168] [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'fail', 'pro': 'name', 'code': 0}, {'msg': 'suc', 'pro': 'age', 'code': 1}], 'Tue, 06 Nov 2018 10:24:03 GMT']
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1169] <class 'list'>
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1171] {'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1172] <class 'dict'>
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1171] {'msg': 'fail', 'pro': 'name', 'code': 0}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1172] <class 'dict'>
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1175] {'msg': 'fail', 'pro': 'name', 'code': 0}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1171] {'msg': 'suc', 'pro': 'age', 'code': 1}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1172] <class 'dict'>
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:833] {'Msg': 'Suc', 'desc': [[{'msg': 'fail', 'pro': 'name', 'code': 0}], 'fail'], 'ErroCode': None, 'code': 1}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:855] ['"27431dc7-9c5b-4cea-bf14-0c3d74bc4379"', 'httpbin', 'V0.1', 3, '接口', 'post', 'http://www.httpbin.org/post?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "\\\\u5c0f\\\\u660e", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'fail', '[{"code": 0, "msg": "fail", "pro": "name"}]', datetime.datetime(2018, 11, 6, 10, 24, 3, 342014)]
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:857] ['"27431dc7-9c5b-4cea-bf14-0c3d74bc4379"', 'httpbin', 'V0.1', 3, '接口', 'post', 'http://www.httpbin.org/post?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "\\\\u5c0f\\\\u660e", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'fail', '[{"code": 0, "msg": "fail", "pro": "name"}]', datetime.datetime(2018, 11, 6, 10, 24, 3, 342014)]
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:873] {'project_name': 'httpbin', 'project_version': 'V0.1', 'result': [{'id': 1, 'error_result': [], 'exec_result': 'pass', 'exec_time': '2018-11-06 10:24:02'}, {'id': 2, 'error_result': [], 'exec_result': 'pass', 'exec_time': '2018-11-06 10:24:02'}, {'id': 3, 'error_result': [{'msg': 'fail', 'pro': 'name', 'code': 0}], 'exec_result': 'fail', 'exec_time': '2018-11-06 10:24:03'}], 'msg': 'suc', 'uuid': '"27431dc7-9c5b-4cea-bf14-0c3d74bc4379"', 'code': 1}
+2018-11-06 10:24:03 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 10:24:03] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 10:57:37 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 10:57:42 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:803] {'project_name': 'httpbin', 'test_param': [{'method': 'post', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'test_descript': 'test', 'URL': 'http://www.httpbin.org/post', 'id': 1, 'infa_name': '接口', 'example_json_params': '', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'method': 'post', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'test_descript': 'test', 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'id': 2, 'infa_name': '接口', 'example_json_params': '', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80'}, {'method': 'post', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'test_descript': 'test', 'URL': 'http://www.httpbin.org/post?age={age}', 'id': 3, 'infa_name': '接口', 'example_json_params': '', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80'}], 'project_version': 'V0.1'}
+2018-11-06 10:57:42 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:57:42 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:57:42 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:821] {'code': 1, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'Msg': 'Suc', 'ErroCode': None}
+2018-11-06 10:57:42 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'code': 1, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'Msg': 'Suc', 'ErroCode': None}
+2018-11-06 10:57:42 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post HTTP/1.1" 200 549
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {}, 
+  "data": "pro_uuid=8ec27d3b-db28-49ac-b1ce-16dee1844f4d", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "mutipart/form-data", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {
+  "args": {}, 
+  "data": "pro_uuid=8ec27d3b-db28-49ac-b1ce-16dee1844f4d", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "mutipart/form-data", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:686] {}
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:825] {'code': 1, 'desc': {}, 'Msg': 'Suc', 'ErroCode': None}
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:696] {}
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:702] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid']]
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:827] {'code': 0, 'desc': "预期结果与实际结果key错误 : 'pro_uuid'", 'Msg': 'Fail'}
+2018-11-06 10:57:43 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 10:57:43] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 11:19:34 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 11:19:37 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:803] {'project_name': 'httpbin', 'test_param': [{'test_descript': 'test', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'method': 'post', 'URL': 'http://www.httpbin.org/post', 'id': 1, 'infa_name': '接口', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'example_json_params': ''}, {'test_descript': 'test', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'method': 'post', 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'id': 2, 'infa_name': '接口', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'example_json_params': ''}, {'test_descript': 'test', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'method': 'post', 'URL': 'http://www.httpbin.org/post?age={age}', 'id': 3, 'infa_name': '接口', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'example_json_params': ''}], 'project_version': 'V0.1'}
+2018-11-06 11:19:37 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:19:37 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:19:37 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:821] {'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'Msg': 'Suc', 'code': 1, 'ErroCode': None}
+2018-11-06 11:19:37 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'Msg': 'Suc', 'code': 1, 'ErroCode': None}
+2018-11-06 11:19:37 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post HTTP/1.1" 200 549
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {}, 
+  "data": "pro_uuid=8ec27d3b-db28-49ac-b1ce-16dee1844f4d", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "mutipart/form-data", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {
+  "args": {}, 
+  "data": "pro_uuid=8ec27d3b-db28-49ac-b1ce-16dee1844f4d", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "mutipart/form-data", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:686] {}
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:825] {'desc': {}, 'Msg': 'Suc', 'code': 1, 'ErroCode': None}
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:696] {}
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:702] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid']]
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:827] {'desc': "预期结果与实际结果key错误 : 'pro_uuid'", 'Msg': 'Fail', 'code': 0}
+2018-11-06 11:19:38 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [06/Nov/2018 11:19:38] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-06 11:24:24 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-06 11:24:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:803] {'project_name': 'httpbin', 'test_param': [{'id': 1, 'URL': 'http://www.httpbin.org/post', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'example_json_params': '', 'test_descript': 'test', 'infa_name': '接口', 'method': 'post'}, {'id': 2, 'URL': 'http://www.httpbin.org/post?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'example_json_params': '', 'test_descript': 'test', 'infa_name': '接口', 'method': 'post'}, {'id': 3, 'URL': 'http://www.httpbin.org/post?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'example_json_params': '', 'test_descript': 'test', 'infa_name': '接口', 'method': 'post'}], 'project_version': 'V0.1'}
+2018-11-06 11:24:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:821] {'ErroCode': None, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:28 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'ErroCode': None, 'desc': ['http://www.httpbin.org/post', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:28 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post HTTP/1.1" 200 577
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post"
+}
+
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:686] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:825] {'ErroCode': None, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:696] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:47] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:702] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid']]
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:789] [{'msg': 'suc', 'code': 1, 'pro': 'pro_uuid'}]
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:827] {'ErroCode': None, 'desc': [[{'msg': 'suc', 'code': 1, 'pro': 'pro_uuid'}], datetime.datetime(2018, 11, 6, 11, 24, 30, 314759)], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:834] {'ErroCode': None, 'desc': [[], 'pass'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:856] ['"dc272815-8270-42f2-b1cf-64e9c71d676f"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 11, 24, 30, 314759)]
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:858] ['"dc272815-8270-42f2-b1cf-64e9c71d676f"', 'httpbin', 'V0.1', 1, '接口', 'post', 'http://www.httpbin.org/post', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 11, 24, 30, 314759)]
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:54] ['name', 'age']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1221] {age}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1224] http://www.httpbin.org/post?name={name}&age=80
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1221] {name}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1224] http://www.httpbin.org/post?name=xiaomin&age=80
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:69] http://www.httpbin.org/post?name=xiaomin&age=80
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:821] {'ErroCode': None, 'desc': ['http://www.httpbin.org/post?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'ErroCode': None, 'desc': ['http://www.httpbin.org/post?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post?name=xiaomin&age=80 HTTP/1.1" 200 640
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {
+    "age": "80", 
+    "name": "xiaomin"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=xiaomin&age=80"
+}
+
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:199] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:685] {
+  "args": {
+    "age": "80", 
+    "name": "xiaomin"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "45", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?name=xiaomin&age=80"
+}
+
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:686] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:825] {'ErroCode': None, 'desc': {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}, 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:696] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:xiaomin', 'age:80']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', 'xiaomin']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:702] [{'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}, ['pro_uuid', 'name', 'age']]
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:789] [{'msg': 'suc', 'code': 1, 'pro': 'pro_uuid'}, {'msg': 'suc', 'code': 1, 'pro': 'name'}, {'msg': 'suc', 'code': 1, 'pro': 'age'}]
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:827] {'ErroCode': None, 'desc': [[{'msg': 'suc', 'code': 1, 'pro': 'pro_uuid'}, {'msg': 'suc', 'code': 1, 'pro': 'name'}, {'msg': 'suc', 'code': 1, 'pro': 'age'}], datetime.datetime(2018, 11, 6, 11, 24, 30, 969540)], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:834] {'ErroCode': None, 'desc': [[], 'pass'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:30 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:856] ['"dc272815-8270-42f2-b1cf-64e9c71d676f"', 'httpbin', 'V0.1', 2, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 11, 24, 30, 969540)]
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:858] ['"dc272815-8270-42f2-b1cf-64e9c71d676f"', 'httpbin', 'V0.1', 2, '接口', 'post', 'http://www.httpbin.org/post?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '""', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 11, 6, 11, 24, 30, 969540)]
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:54] ['age']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1221] {age}
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:1224] http://www.httpbin.org/post?age=80
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:69] http://www.httpbin.org/post?age=80
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:821] {'ErroCode': None, 'desc': ['http://www.httpbin.org/post?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:632] {'ErroCode': None, 'desc': ['http://www.httpbin.org/post?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post'], 'code': 1, 'Msg': 'Suc'}
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): www.httpbin.org:80
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://www.httpbin.org:80 "POST /post?age=80 HTTP/1.1" 200 632
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:17] ['pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name:小明', 'age:80']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['name', '小明']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\compatibility.py [line:29] ['age', '80']
+2018-11-06 11:24:31 E:\virtualenv\hanshow\autoinfa\verify_v2.01\libs\view_params_deal.py [line:198] {
+  "args": {
+    "age": "80"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "name": "\u5c0f\u660e", 
+    "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connection": "close", 
+    "Content-Length": "69", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "www.httpbin.org", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+  }, 
+  "json": null, 
+  "origin": "124.192.171.242", 
+  "url": "http://www.httpbin.org/post?age=80"
+}
+

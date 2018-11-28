@@ -1,0 +1,490 @@
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId1', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:165] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:43] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:301] {'msg1': '{msg1}', 'data': {'totalPage': 20, 'items': [{'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId}', 'goodsEan': '6922266451799'}, {'goodsName': '劲仔卤香小鱼50g', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId1}', 'goodsEan': '6951957202167'}], 'totalAmount': 40, 'itemPerPage': 2, 'currentPage': 1}, 'code1': '{code1}'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {msg1}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":"{code1}","data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] "{code1}"
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId1}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:830] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:637] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 192.168.2.10:8089
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://192.168.2.10:8089 "POST /user/httpbin HTTP/1.1" 200 1002
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:680] {"code1": 1001, "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "2/###/2065282", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "2/###/2020271", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.041916476139815424
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.18912962889059576
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.07098513706835878
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.33167222523823064
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:685] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:201] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:202] {'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] msg1
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] code1
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] goodsId
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:315] goodsId
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:316] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] []
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:406] []
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:407] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:271] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:690] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:691] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:834] {'desc': {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}, 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:701] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:707] [{'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}, ['code1', 'msg1', 'goodsId']]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:738] ['2/###/2065282','2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:739] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'list'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1297] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:743] {'desc': ['2/###/2065282', '2/###/2020271'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:750] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:751] <class 'list'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:752] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:753] <class 'list'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:797] [{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:836] {'desc': [[{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}], datetime.datetime(2018, 11, 20, 18, 19, 51, 65465)], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:843] {'desc': [[], 'pass'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:865] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 1, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 65465)]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:867] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 1, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 65465)]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:825] code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:37] code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1_int:1001', 'msg1:success', 'goodsId:2/###/2065282', 'goodsId1:2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1_int', '1001']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', '2/###/2065282']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId1', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:165] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:43] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:301] {'msg1': '{msg1}', 'data': {'totalPage': 20, 'items': [{'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId}', 'goodsEan': '6922266451799'}, {'goodsName': '劲仔卤香小鱼50g', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId1}', 'goodsEan': '6951957202167'}], 'totalAmount': 40, 'itemPerPage': 2, 'currentPage': 1}, 'code1': '{code1}'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {msg1}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":"{code1}","data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] "{code1}"
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId1}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:830] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:637] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 192.168.2.10:8089
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://192.168.2.10:8089 "POST /user/httpbin HTTP/1.1" 200 1002
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:680] {"code1": 1001, "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "2/###/2065282", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "2/###/2020271", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "success"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.041916476139815424
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.18912962889059576
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.07098513706835878
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.33167222523823064
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:685] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:201] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:202] {'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] msg1
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] code1
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] goodsId
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:315] goodsId
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:316] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] []
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:406] []
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:407] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:271] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:690] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
+
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:691] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:834] {'desc': {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}, 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:701] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:707] [{'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}, ['code1', 'msg1', 'goodsId']]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:738] ['2/###/2065282','2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:739] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'list'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1297] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:743] {'desc': ['2/###/2065282', '2/###/2020271'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:750] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:751] <class 'list'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:752] ['2/###/2065282', '2/###/2020271']
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:753] <class 'list'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:797] [{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:836] {'desc': [[{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}], datetime.datetime(2018, 11, 20, 18, 19, 51, 465167)], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:843] {'desc': [[], 'pass'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:865] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 2, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 465167)]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:867] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 2, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 465167)]
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:883] {'result': [{'exec_result': 'pass', 'error_result': [], 'id': 1, 'exec_time': '2018-11-20 18:19:51'}, {'exec_result': 'pass', 'error_result': [], 'id': 2, 'exec_time': '2018-11-20 18:19:51'}], 'uuid': '"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'project_version': 'rc1', 'project_name': 'cloudmonitor', 'msg': 'suc', 'code': 1}
+2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [20/Nov/2018 18:19:51] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-11-22 12:03:46 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 13:41:22 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [22/Nov/2018 13:41:22] "GET /user/create_db/ HTTP/1.1" 200 -
+2018-11-22 13:41:22 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [22/Nov/2018 13:41:22] "GET /favicon.ico HTTP/1.1" 404 -
+2018-11-24 10:31:34 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-24 10:32:40 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/create_db/ [GET]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
+    return fn()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
+    return _ConnectionFairy._checkout(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
+    rec = pool._do_get()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
+    self._dec_overflow()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
+    return self._create_connection()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
+    return _ConnectionRecord(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
+    self.__connect(first_connect_check=True)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
+    connection = pool._invoke_creator(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
+    self.connect()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
+    self._request_authentication()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
+    auth_packet = self._process_auth(plugin_name, auth_packet)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
+    pkt = self._read_packet()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 52, in create_db
+    db.create_all()
+  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 963, in create_all
+    self._execute_for_all_tables(app, bind, 'create_all')
+  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 955, in _execute_for_all_tables
+    op(bind=self.get_engine(app, bind), **extra)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\sql\schema.py", line 4005, in create_all
+    tables=tables)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1939, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "D:\ProgramFiles\Python35\Python35\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1932, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2123, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2162, in _wrap_pool_connect
+    e, dialect, self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1476, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
+    return fn()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
+    return _ConnectionFairy._checkout(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
+    rec = pool._do_get()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
+    self._dec_overflow()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
+    return self._create_connection()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
+    return _ConnectionRecord(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
+    self.__connect(first_connect_check=True)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
+    connection = pool._invoke_creator(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
+    self.connect()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
+    self._request_authentication()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
+    auth_packet = self._process_auth(plugin_name, auth_packet)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
+    pkt = self._read_packet()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)") (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-24 10:32:41 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:32:41] "GET /user/create_db/ HTTP/1.1" 500 -
+2018-11-24 10:32:41 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:32:41] "GET /favicon.ico HTTP/1.1" 404 -
+2018-11-24 10:33:31 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/create_db/ [GET]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
+    return fn()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
+    return _ConnectionFairy._checkout(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
+    rec = pool._do_get()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
+    self._dec_overflow()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
+    return self._create_connection()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
+    return _ConnectionRecord(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
+    self.__connect(first_connect_check=True)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
+    connection = pool._invoke_creator(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
+    self.connect()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
+    self._request_authentication()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
+    auth_packet = self._process_auth(plugin_name, auth_packet)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
+    pkt = self._read_packet()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 52, in create_db
+    db.create_all()
+  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 963, in create_all
+    self._execute_for_all_tables(app, bind, 'create_all')
+  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 955, in _execute_for_all_tables
+    op(bind=self.get_engine(app, bind), **extra)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\sql\schema.py", line 4005, in create_all
+    tables=tables)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1939, in _run_visitor
+    with self._optional_conn_ctx_manager(connection) as conn:
+  File "D:\ProgramFiles\Python35\Python35\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1932, in _optional_conn_ctx_manager
+    with self.contextual_connect() as conn:
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2123, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2162, in _wrap_pool_connect
+    e, dialect, self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1476, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
+    return fn()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
+    return _ConnectionFairy._checkout(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
+    rec = pool._do_get()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
+    self._dec_overflow()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
+    return self._create_connection()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
+    return _ConnectionRecord(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
+    self.__connect(first_connect_check=True)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
+    connection = pool._invoke_creator(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
+    self.connect()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
+    self._request_authentication()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
+    auth_packet = self._process_auth(plugin_name, auth_packet)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
+    pkt = self._read_packet()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)") (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-11-24 10:33:31 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:33:31] "GET /user/create_db/ HTTP/1.1" 500 -
+2018-11-24 10:35:03 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-24 10:35:13 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:35:13] "GET /user/create_db/ HTTP/1.1" 200 -
+2018-11-25 10:22:11 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-25 10:23:24 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:23:24] "GET /user/create_db/ HTTP/1.1" 200 -
+2018-11-25 10:23:24 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:23:24] "GET /favicon.ico HTTP/1.1" 404 -
+2018-11-25 10:36:18 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:36:18] "GET /user/create_db/ HTTP/1.1" 200 -
+2018-11-25 10:38:51 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-25 10:38:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:38:57] "GET /user/create_db/ HTTP/1.1" 200 -
+2018-11-25 10:40:02 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:40:02] "GET /user/create_db/ HTTP/1.1" 200 -
