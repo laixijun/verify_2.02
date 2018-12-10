@@ -2,6 +2,8 @@ from datetime import datetime
 # 导入SQLAlchemy模块
 from flask_sqlalchemy import SQLAlchemy
 # 初始化db
+from libs.error_code import ReturnDesc, ERRRecord
+
 db = SQLAlchemy()
 
 
@@ -179,7 +181,7 @@ class ExtraDbFile(db.Model):
 
 
 
-	def __init__(self,uuid,project_name,project_version,infa_url,test_descript,db_item,db_compare_result,db_actul_result,file_item,file_compare_result,file_actul_result,exe_result):
+	def __init__(self,uuid,project_name,project_version,id,infa_url,test_descript,db_item=None,db_compare_result=None,db_actul_result=None,file_item=None,file_compare_result=None,file_actul_result=None,exe_result=None):
 		  self.uuid = uuid
 		  self.project_name = project_name
 		  self.project_version = project_version
@@ -195,11 +197,45 @@ class ExtraDbFile(db.Model):
 		  self.exe_result = exe_result
 
 	@staticmethod
-	def instert_db(self,uuid,project_name,project_version,infa_url,test_descript,db_item,db_compare_result,db_actul_result,exe_result):
-		ebf = ExtraDbFile(uuid,project_name,project_version,infa_url,test_descript,db_item,db_compare_result,db_actul_result,exe_result)
+	def instert_db(uuid,project_name,project_version,id,infa_url,test_descript,exe_result,db_item=None,db_compare_result=None,db_actul_result=None):
+		ebf = ExtraDbFile(uuid=uuid, project_name=project_name, project_version=project_version, id=id, infa_url=infa_url,
+                                 test_descript=test_descript, db_item=db_item, db_compare_result=db_compare_result,
+						  db_actul_result=db_actul_result, exe_result=exe_result)
 		db.session.add_all([ebf])
 		db.session.commit()
 
+	@staticmethod
+	def instert_file(uuid,project_name,project_version,id,infa_url,test_descript,exe_result,file_item=None,file_compare_result=None,file_actul_result=None):
+		ebf = ExtraDbFile(uuid=uuid, project_name=project_name, project_version=project_version, id=id, infa_url=infa_url,
+                                 test_descript=test_descript, file_item=file_item, file_compare_result=file_compare_result,
+                                file_actul_result=file_actul_result, exe_result=exe_result)
+		db.session.add_all([ebf])
+		db.session.commit()
+
+	@staticmethod
+	def search(pro_uuid):
+		results = ExtraDbFile.query.filter(ExtraDbFile.uuid == pro_uuid).all()
+		result_data={}
+		if results:
+			for result in results:
+				result_data["uuid"]=result.uuid
+				result_data["id"] =result.id
+				result_data["infa_url"] =result.infa_url
+				result_data["test_descript"] =result.test_descript
+				if result.db_item != None:
+					result_data["file_item"] =result.db_item
+					result_data["file_actul_result"] =result.db_actul_result
+					result_data["file_compare_result"] =result.db_compare_result
+				elif result.file_item != None:
+					result_data["file_item"] =result.file_item
+					result_data["file_actul_result"] =result.file_actul_result
+					result_data["file_compare_result"] =result.file_compare_result
+				elif result.exe_result != None:
+					result_data["exe_result"] = result.exe_result
+		else:
+			return ReturnDesc(ERRRecord.DBSEARCHUUID,ERRRecord.DBSEARCHUUIDNO).false_desc()
+
+		return ReturnDesc(desc=result_data).success_desc()
 
 	def save(self):
 			db.session.add(self)

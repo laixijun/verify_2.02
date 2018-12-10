@@ -8,7 +8,8 @@ http://192.168.2.10:8088/user/api/push_v1
 http://192.168.2.10:8088/user/api/acquire_v1
 访问首页
 http://192.168.2.10:8088/user/login/
-
+查询DB 和 FILE 类型测试结果  post （pro_uuid）
+http://192.168.2.10:8088/user/resultDBFILE/
 
 
 
@@ -24,3 +25,5 @@ http://192.168.2.10:8088/user/login/
 用户名，密码，host，port，db，查询值，dt，键，值，时间，db
 文件
 路径，正则表达式，时间,file
+
+

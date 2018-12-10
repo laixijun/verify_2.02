@@ -488,3 +488,203 @@ sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1045, "Access d
 2018-11-25 10:38:51 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 2018-11-25 10:38:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:38:57] "GET /user/create_db/ HTTP/1.1" 200 -
 2018-11-25 10:40:02 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:40:02] "GET /user/create_db/ HTTP/1.1" 200 -
+2018-12-08 17:37:16 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 17:38:19 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:38:19] "GET /user/insert_test HTTP/1.1" 405 -
+2018-12-08 17:38:19 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:38:19] "GET /favicon.ico HTTP/1.1" 404 -
+2018-12-08 17:38:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 17:39:14 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [GET]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 29, in insert_test
+    db_actul_result, exe_result)
+  File "F:\zhy\development\verify_v2.04\App\models.py", line 199, in instert_db
+    ebf = ExtraDbFile(uuid,project_name,project_version,infa_url,test_descript,db_item,db_compare_result,db_actul_result,exe_result)
+TypeError: __init__() missing 3 required positional arguments: 'file_compare_result', 'file_actul_result', and 'exe_result'
+2018-12-08 17:39:14 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:39:14] "GET /user/insert_test HTTP/1.1" 500 -
+2018-12-08 17:51:42 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 17:51:52 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [GET]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 29, in insert_test
+    db_actul_result, exe_result)
+  File "F:\zhy\development\verify_v2.04\App\models.py", line 201, in instert_db
+    db.session.commit()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\scoping.py", line 153, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 943, in commit
+    self.transaction.commit()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 467, in commit
+    self._prepare_impl()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 447, in _prepare_impl
+    self.session.flush()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 2254, in flush
+    self._flush(objects)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 2380, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 2344, in _flush
+    flush_context.execute()
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 391, in execute
+    rec.execute(self)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 556, in execute
+    uow
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\persistence.py", line 181, in save_obj
+    mapper, table, insert)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\persistence.py", line 866, in _emit_insert_statements
+    execute(statement, params)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1416, in _handle_dbapi_exception
+    util.reraise(*exc_info)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 127, in _escape_args
+    return dict((key, conn.literal(val)) for (key, val) in args.items())
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 127, in <genexpr>
+    return dict((key, conn.literal(val)) for (key, val) in args.items())
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 469, in literal
+    return self.escape(obj, self.encoders)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 462, in escape
+    return converters.escape_item(obj, self.charset, mapping=mapping)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\converters.py", line 27, in escape_item
+    val = encoder(val, mapping)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\converters.py", line 118, in escape_unicode
+    return u"'%s'" % _escape_unicode(value)
+  File "F:\zhy\development\env_work\lib\site-packages\pymysql\converters.py", line 73, in _escape_unicode
+    return value.translate(_escape_table)
+AttributeError: 'builtin_function_or_method' object has no attribute 'translate'
+2018-12-08 17:51:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:51:53] "GET /user/insert_test HTTP/1.1" 500 -
+2018-12-08 18:06:28 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 18:06:39 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:06:39] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 18:08:20 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 18:09:13 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:09:13] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 18:12:51 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 18:12:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:12:57] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 18:26:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 18:26:39 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:26:39] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 19:17:09 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 19:17:33 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:17:33] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 19:18:46 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:18:46] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 19:20:36 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 19:20:41 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:20:41] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 19:22:21 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 19:22:30 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:22:30] "GET /user/insert_test HTTP/1.1" 200 -
+2018-12-08 22:28:16 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 22:28:20 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:28:20] "POST /user/insert_test HTTP/1.1" 405 -
+2018-12-08 22:28:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 22:28:58 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 44, in insert_test
+    pro_uuid=request.form.to_dict()["pro_uuid"]
+KeyError: 'pro_uuid'
+2018-12-08 22:28:58 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:28:58] "POST /user/insert_test HTTP/1.1" 500 -
+2018-12-08 22:30:14 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 22:30:19 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 46, in insert_test
+    pro_uuid=pro_uuid1["pro_uuid"]
+KeyError: 'pro_uuid'
+2018-12-08 22:30:19 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:30:19] "POST /user/insert_test HTTP/1.1" 500 -
+2018-12-08 22:31:10 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 46, in insert_test
+    pro_uuid=pro_uuid1["pro_uuid"]
+KeyError: 'pro_uuid'
+2018-12-08 22:31:10 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:31:10] "POST /user/insert_test HTTP/1.1" 500 -
+2018-12-08 22:31:35 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
+Traceback (most recent call last):
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 47, in insert_test
+    a=ExtraDbFile.search(pro_uuid)
+  File "F:\zhy\development\verify_v2.04\App\models.py", line 218, in search
+    result_data["uuid"]=result.uuid
+AttributeError: 'list' object has no attribute 'uuid'
+2018-12-08 22:31:35 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:31:35] "POST /user/insert_test HTTP/1.1" 500 -
+2018-12-08 22:40:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-08 22:40:35 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:40:35] "POST /user/insert_test HTTP/1.1" 200 -

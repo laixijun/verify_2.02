@@ -191,7 +191,7 @@ class SoursDeal(object):
 				if except_name_single[-3:]=="_db" or except_name_single[-5:]=="_file":
 					except_name_single_list=except_name_single.split("_")
 					file_db_dict[except_name_single]=except_name_single_list
-					time=except_name_single_list[9]
+					time=int(except_name_single_list[-1])
 					compare_data = except_descript_list[1][except_value_index]
 					except_value_index += 1
 					if except_name_single_list[10] =="db":
@@ -200,6 +200,8 @@ class SoursDeal(object):
 						func=MA.mysqlAssertMain
 						threadingTimer(time, func,(except_name_single_list[5], except_name_single_list[6], except_name_single_list[7],
 												   except_name_single_list[8],compare_data,uuid,project_name,project_version,id,infa_url,test_descript))
+					elif except_name_single_list[10] =="file":
+						pass
 					continue
 				except_descript_deal_dict[except_name_single] = except_descript_list[1][except_value_index]
 				except_value_index += 1

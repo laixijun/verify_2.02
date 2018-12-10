@@ -1,6 +1,6 @@
 from flask import Blueprint, redirect, render_template, request, url_for, session, jsonify, json
 
-from App.models import db, User, Grade, Student, Role, Permission, MoreDB, Users, NewReportTest, DBopreate
+from App.models import db, User, Grade, Student, Role, Permission, MoreDB, Users, NewReportTest, DBopreate, ExtraDbFile
 from libs.error_code import ReturnDesc
 from libs.view_params_deal import TestParamsDeal
 from log.logging_file_console import logger
@@ -8,6 +8,44 @@ from utils.ch_login import is_login
 
 user_blueprint = Blueprint('user', __name__)
 
+#查询DB 和 FILE 类型测试结果
+@user_blueprint.route('/resultDBFILE', methods=['GET','POST'])
+def insert_test():
+    """
+    退出登录
+    """
+    if request.method == 'GET':
+        # 清空session
+        uuid="1222"
+        project_name="1222"
+        project_version="1222"
+        id=1
+        infa_url="1222"
+        test_descript="1222"
+        db_item="1222"
+        db_compare_result="1222"
+        db_actul_result="1222"
+        file_item = "1222"
+        file_compare_result = "1222"
+        file_actul_result = "1222"
+        exe_result="1222"
+        # ExtraDbFile.instert_db(uuid=uuid, project_name=project_name, project_version=project_version, id=id, infa_url=infa_url,
+        #                          test_descript=test_descript, db_item=db_item, db_compare_result=db_compare_result,
+			# 			  db_actul_result=db_actul_result, exe_result=exe_result)
+        # ExtraDbFile.instert_file(uuid=uuid, project_name=project_name, project_version=project_version, id=id, infa_url=infa_url,
+        #                          test_descript=test_descript, file_item=file_item, file_compare_result=file_compare_result,
+        #                         file_actul_result=file_actul_result, exe_result=exe_result)
+        ExtraDbFile.instert_db(uuid,project_name,project_version,id,infa_url,test_descript,db_item,db_compare_result,db_actul_result,exe_result)
+        ExtraDbFile.instert_file(uuid,project_name,project_version,id,infa_url,test_descript,file_item,file_compare_result,file_actul_result,exe_result)
+        # 跳转到登录页面
+        return jsonify("ok")
+
+    elif request.method == 'POST':
+        pro_uuid1=request.form.to_dict()
+        print(pro_uuid1)
+        pro_uuid=pro_uuid1["pro_uuid"]
+        a=ExtraDbFile.search(pro_uuid)
+        return jsonify(a)
 
 @user_blueprint.route('/httpbinitem/<item>', methods=['GET', 'POST'])
 def httpbinitem(item):

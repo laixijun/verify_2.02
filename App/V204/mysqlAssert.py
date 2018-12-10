@@ -1,3 +1,6 @@
+from flask import json
+
+from App.models import ExtraDbFile
 from libs.error_code import ReturnDesc
 from libs.mysqlhelper import MysqlHelper
 
@@ -63,9 +66,19 @@ class MysqlAssert:
 		item=self.exeSql(search_item, search_dt, search_key, search_value)
 		if item["code"]==1:
 			result=self.compare(compared_data=item,compare_data=compare_data)
+			exe_result=json.dumps(self.success_desc(desc="db_pass"))
+			if result["code"]==1:
+				db_item=item
+				db_compare_result=result["desc"]
+				db_actul_result=compare_data
+				ExtraDbFile.instert_db(uuid, project_name, project_version, id, infa_url, test_descript, db_item,
+									   db_compare_result,db_actul_result, exe_result)
+			elif result["code"] == 0:
+				exe_result = json.dumps(result, ensure_ascii=False)
+				ExtraDbFile.instert_db(uuid, project_name, project_version, id, infa_url, test_descript, exe_result)
 		elif item["code"]==0:
-			return item
-		return result
+			exe_result=json.dumps(item,ensure_ascii=False)
+			ExtraDbFile.instert_db(uuid, project_name, project_version, id, infa_url, test_descript, exe_result)
 
 	def data_type_conversion(self, dataed, data):
 

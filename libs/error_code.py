@@ -28,7 +28,12 @@ class ERRRecord:
 	数据读写错误9开始
 	传入参数有误8开始
 	程序有误7开始
+
 	'''
+	#DB 和 FILE 查询生成测试结果，输入pro_uuid 错误
+	DBSEARCHUUID="UUID 不存在"
+	DBSEARCHUUIDNO = 8010
+
 	def record(self):
 		{
 			"获取db中url失败": 901,

@@ -1,307 +1,55 @@
-{
-    "code": 1001,
-    "msg": "success",
-    "data": {
-        "itemPerPage": 2,
-        "totalPage": 20,
-        "totalAmount": 40,
-        "currentPage": 1,
-        "items": [
-            {
-                "goodsId": "2/###/2065282",
-                "goodsEan": "6922266451799",
-                "goodsSku": "2065282",
-                "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片",
-                "goodsDesc": "",
-                "goodsDesc2": "",
-                "goodsDesc3": "",
-                "goodsDesc4": "",
-                "goodsDesc5": "",
-                "esls": [
-                    {
-                        "eslId": "50-08-DE-EE",
-                        "categrayId": 101
-                    },
-                    {
-                        "eslId": "50-B7-9B-EE",
-                        "categrayId": 101
-                    },
-                    {
-                        "eslId": "50-07-F4-EE",
-                        "categrayId": 101
-                    },
-                    {
-                        "eslId": "50-09-2C-EE",
-                        "categrayId": 101
-                    },
-                    {
-                        "eslId": "50-AD-06-EE",
-                        "categrayId": 101
-                    },
-                    {
-                        "eslId": "50-08-6A-EE",
-                        "categrayId": 101
-                    }
-                ]
-            },
-            {
-                "goodsId": "2/###/2020271",
-                "goodsEan": "6951957202167",
-                "goodsSku": "2020271",
-                "goodsName": "劲仔卤香小鱼50g",
-                "goodsDesc": "",
-                "goodsDesc2": "",
-                "goodsDesc3": "",
-                "goodsDesc4": "",
-                "goodsDesc5": "",
-                "esls": [
-                    {
-                        "eslId": "52-53-92-03",
-                        "categrayId": 55
-                    },
-                    {
-                        "eslId": "50-B7-66-EE",
-                        "categrayId": 101
-                    },
-                    {
-                        "eslId": "50-AF-1E-EE",
-                        "categrayId": 101
-                    },
-                    {
-                        "eslId": "50-08-DF-EE",
-                        "categrayId": 101
-                    }
-                ]
-            }
-        ]
-    }
-}
+import paramiko
 
-{
-    "project_name":"cloudmonitor",
-    "project_version":"rc1",
-    "test_param":[
-        {
-            "URL":"http://192.168.2.10:8089/user/httpbin",
-            "example_json_params":{
-									    "code": "{code}",
-									    "msg": "{msg}",
-									    "data": {
-									        "itemPerPage": 2,
-									        "totalPage": 20,
-									        "totalAmount": 40,
-									        "currentPage": 1,
-									        "items": [
-									            {
-									                "goodsId": "{goodsId}",
-									                "goodsEan": "6922266451799",
-									                "goodsSku": "2065282",
-									                "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片",
-									                "goodsDesc": "",
-									                "goodsDesc2": "",
-									                "goodsDesc3": "",
-									                "goodsDesc4": "",
-									                "goodsDesc5": "",
-									                "esls": [
-									                    {
-									                        "eslId": "50-08-DE-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-B7-9B-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-07-F4-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-09-2C-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-AD-06-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-08-6A-EE",
-									                        "categrayId": 101
-									                    }
-									                ]
-									            },
-									            {
-									                "goodsId": "{goodsId}",
-									                "goodsEan": "6951957202167",
-									                "goodsSku": "2020271",
-									                "goodsName": "劲仔卤香小鱼50g",
-									                "goodsDesc": "",
-									                "goodsDesc2": "",
-									                "goodsDesc3": "",
-									                "goodsDesc4": "",
-									                "goodsDesc5": "",
-									                "esls": [
-									                    {
-									                        "eslId": "52-53-92-03",
-									                        "categrayId": 55
-									                    },
-									                    {
-									                        "eslId": "50-B7-66-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-AF-1E-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-08-DF-EE",
-									                        "categrayId": 101
-									                    }
-									                ]
-									            }
-									        ]
-									    }
-									},
-            "except_descript":"code:1001;msg:success;goodsId:['2/###/2065282','2/###/2020271'];",
-            "id":1,
-            "infa_name":"接口测试",
-            "method":"post_json",
-            "test_descript":"code:1001;msg:success;goodsId:['2/###/2065282','2/###/2020271'];",
-            "test_params":""
-        },
-        {
-            "URL":"http://192.168.2.10:8089/user/httpbin",
-            "example_json_params":{
-									    "code": "{code}",
-									    "msg": "{msg}",
-									    "data": {
-									        "itemPerPage": 2,
-									        "totalPage": 20,
-									        "totalAmount": 40,
-									        "currentPage": 1,
-									        "items": [
-									            {
-									                "goodsId": "{goodsId}",
-									                "goodsEan": "6922266451799",
-									                "goodsSku": "2065282",
-									                "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片",
-									                "goodsDesc": "",
-									                "goodsDesc2": "",
-									                "goodsDesc3": "",
-									                "goodsDesc4": "",
-									                "goodsDesc5": "",
-									                "esls": [
-									                    {
-									                        "eslId": "50-08-DE-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-B7-9B-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-07-F4-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-09-2C-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-AD-06-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-08-6A-EE",
-									                        "categrayId": 101
-									                    }
-									                ]
-									            },
-									            {
-									                "goodsId": "{goodsId}",
-									                "goodsEan": "6951957202167",
-									                "goodsSku": "2020271",
-									                "goodsName": "劲仔卤香小鱼50g",
-									                "goodsDesc": "",
-									                "goodsDesc2": "",
-									                "goodsDesc3": "",
-									                "goodsDesc4": "",
-									                "goodsDesc5": "",
-									                "esls": [
-									                    {
-									                        "eslId": "52-53-92-03",
-									                        "categrayId": 55
-									                    },
-									                    {
-									                        "eslId": "50-B7-66-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-AF-1E-EE",
-									                        "categrayId": 101
-									                    },
-									                    {
-									                        "eslId": "50-08-DF-EE",
-									                        "categrayId": 101
-									                    }
-									                ]
-									            }
-									        ]
-									    }
-									},
-            "except_descript":"code:1001;msg:success;goodsId:['2/###/2065282','2/###/2020271'];",
-            "id":2,
-            "infa_name":"接口测试",
-            "method":"get",
-            "test_descript":"code:1001;msg:success;goodsId:['2/###/2065282','2/###/2020271'];",
-            "test_params":"storeid:2;"
-        }
-    ]
-}
-{"code":"1001","data":{"currentPage":1,"itemPerPage":2,"items":
-[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},
-{"categrayId":101,"eslId":"50-B7-9B-EE"},
-          {"categrayId":101,"eslId":"50-07-F4-EE"},
-          {"categrayId":101,"eslId":"50-09-2C-EE"},
-          {"categrayId":101,"eslId":"50-AD-06-EE"},
-          {"categrayId":101,"eslId":"50-08-6A-EE"}],
-  "goodsDesc":"","goodsDesc2":"","goodsDesc3":"",
-  "goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799",
-  "goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片",
-  "goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},
-        {"categrayId":101,"eslId":"50-B7-66-EE"},
+class RemoteSource:
+	def __init__(self):
+		pass
+	#远程读取服务器文件
+	def ssh(ip, username, passwd, cmd):
+		try:
+			ssh = paramiko.SSHClient()
+			ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+			ssh.connect(ip, 22, username, passwd, timeout=5)
+			for m in cmd:
+				stdin, stdout, stderr = ssh.exec_command(m)
+				res = stdout.read()  # 屏幕输出
+				err = stderr.read()
+				result = res if res else err
+			print('%s\tOK\n' % (ip))
+			return result.decode()
+			ssh.close()
+		except:
+			print('%s\tError\n' % (ip))
+	#远程服务器下载文件到本地
+	def sftp(ip, port, username, passwd, method, local, motive):
+		try:
+			transport = paramiko.Transport((ip, port))
+			transport.connect(username=username, password=passwd)
 
-        {"categrayId":101,"eslId":"50-AF-1E-EE"},
-                                 {"categrayId":101,"eslId":"50-08-DF-EE"}],
-                         "goodsDesc":"","goodsDesc2":"","goodsDesc3":"",
-                         "goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167",
-                         "goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],
-                       "totalAmount":40,"totalPage":20},"msg":"success"}
+			sftp = paramiko.SFTPClient.from_transport(transport)
+			if method == "push":
+				sftp.push(local, motive)
+			elif method == "get":
+				sftp.get(motive, local)
+			print('%s\tOK\n' % (ip))
+			transport.close()
+		except:
+			print('%s\tError\n' % (ip))
 
-# a={'goodsId': ['2/###/2065282', '2/###/2020271'], 'msg1': 'success'}
-# a=10
-# b=a+1
-# print(a,b)
-
-
-{"args":"","code":100,"form":"","json":{"1001":"{1001}","data":
-	{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},
-{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},
- {"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},
- {"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"",
-"goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282",
-  "goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},
-{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},
-         {"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],
- "goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167",
- "goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-
-# encoding: UTF-8
-import threading
-
-def one(*args,**kwargs):
-	print(args)
-	print(kwargs)
-
-a=(1,2,3)
-one(a)
-
+if __name__=='__main__':
+	#cmd = ['find /home/admin/logs/ -mtime +3 -name \'*.log.*\' -exec rm -rf {} \;']#你要执行的命令列表
+	cmd = ['cat /tmp/zhy/a.log']#你要执行的命令列表
+	username = "root"  #用户名
+	passwd = "123456"    #密码
+	threads = []   #多线程
+	ip = "192.168.31.118"
+	print("Begin......")
+	port=22
+	method="get"
+	local="C:/Users/zhy/Desktop/a.log"
+	motive="/tmp/zhy/a.log"
+	# a=threading.Thread(target=ssh,args=(ip,username,passwd,cmd))
+	# a.start()
+	# a=ssh(ip,username,passwd,cmd)
+	sftp(ip, port, username, passwd, method, local, motive)
+	# print(a)
+	# input()
