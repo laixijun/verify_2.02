@@ -53,5 +53,8 @@ if __name__=='__main__':
 	# # sftp(ip, port, username, passwd, method, local, motive)
 	# print(a)
 	# # input()
-	a=[]
+	a=':fasdfwefsdfs'
+	a = a.split(':')
 	print(len(a))
+	if a[0]=="":
+		print("ok")

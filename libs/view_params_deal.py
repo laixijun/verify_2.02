@@ -6,6 +6,7 @@ from uuid import uuid4
 import requests
 from flask import request, json
 
+from App.V204.fileassert import FileAssert
 from App.V204.mysqlAssert import MysqlAssert
 from App.models import NewReportTest
 from libs import mysqlhelper
@@ -201,7 +202,11 @@ class SoursDeal(object):
 						threadingTimer(time, func,(except_name_single_list[5], except_name_single_list[6], except_name_single_list[7],
 												   except_name_single_list[8],compare_data,uuid,project_name,project_version,id,infa_url,test_descript))
 					elif except_name_single_list[10] =="file":
-						pass
+						func = FileAssert().fileAssertMain
+						threadingTimer(time, func, (
+						except_name_single_list[0], except_name_single_list[1], except_name_single_list[2],
+						except_name_single_list[3],except_name_single_list[4], compare_data, uuid, project_name, project_version, id, infa_url,
+						test_descript))
 					continue
 				except_descript_deal_dict[except_name_single] = except_descript_list[1][except_value_index]
 				except_value_index += 1
