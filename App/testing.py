@@ -50,6 +50,8 @@ if __name__=='__main__':
 	# a=threading.Thread(target=ssh,args=(ip,username,passwd,cmd))
 	# a.start()
 	# a=ssh(ip,username,passwd,cmd)
-	sftp(ip, port, username, passwd, method, local, motive)
+	# # sftp(ip, port, username, passwd, method, local, motive)
 	# print(a)
-	# input()
+	# # input()
+	a=[]
+	print(len(a))

@@ -25,5 +25,9 @@ http://192.168.2.10:8088/user/resultDBFILE/
 用户名，密码，host，port，db，查询值，dt，键，值，时间，db
 文件
 路径，正则表达式，时间,file
+ip, username, passwd, cmd
+ip,用户名，密码，cmd,正则表达式，时间，file
 
 
+待解决：
+预期参数分析时，如果参数存在；会导致解析错误

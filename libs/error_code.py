@@ -34,6 +34,26 @@ class ERRRecord:
 	DBSEARCHUUID="UUID 不存在"
 	DBSEARCHUUIDNO = 8010
 
+	# file日志文件读取失败
+	REMOTEFILE="远程读取日志文件失败"
+	REMOTEFILENO=703
+
+	# file日志文件读取为空
+	REMOTEFILECONTENT = "远程读取日志文件为空"
+	REMOTEFILECONTENTNO = 8012
+
+	# file日志文件正则匹配为空
+	REMOTEFILERECONTENT = "远程读取日志文件为空"
+	REMOTEFILERECONTENTNO = 8013
+
+	# mysql测试数据读取失败
+	REMOTEMYSQL="mysql测试数据读取失败"
+	REMOTEMYSQLNO =704
+
+	# mysql测试数据读取为空
+	REMOTEMYSQLCONTENT = "mysql测试数据读取失败"
+	REMOTEMYSQLCONTENTNO = 8011
+
 	def record(self):
 		{
 			"获取db中url失败": 901,

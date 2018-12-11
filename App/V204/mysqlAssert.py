@@ -1,7 +1,7 @@
 from flask import json
 
 from App.models import ExtraDbFile
-from libs.error_code import ReturnDesc
+from libs.error_code import ReturnDesc, ERRRecord
 from libs.mysqlhelper import MysqlHelper
 
 
@@ -35,10 +35,17 @@ class MysqlAssert:
 
 	# 执行sql语句
 	def exeSql(self,search_item,search_dt,search_key,search_value):
-		sql="select "+search_item+" from "+search_dt+" where "+search_key+" = %s"
-		params=(search_value)
-		result=self.getMysql().get_one(sql,params)
-		return result[0]
+		try:
+			sql="select "+search_item+" from "+search_dt+" where "+search_key+" = %s"
+			params=(search_value)
+			result=self.getMysql().get_one(sql,params)
+			if result[0]:
+				return ReturnDesc(desc=result[0]).success_desc()
+			else:
+				return ReturnDesc(desc=ERRRecord.REMOTEMYSQLCONTENT, code=ERRRecord.REMOTEMYSQLCONTENTNO).false_desc()
+
+		except:
+			return ReturnDesc(desc=ERRRecord.REMOTEMYSQL,code=ERRRecord.REMOTEMYSQNO).false_desc()
 
 
 	# 校验结果
@@ -65,6 +72,7 @@ class MysqlAssert:
 	def mysqlAssertMain(self,search_item, search_dt, search_key, search_value,compare_data,uuid,project_name,project_version,id,infa_url,test_descript):
 		item=self.exeSql(search_item, search_dt, search_key, search_value)
 		if item["code"]==1:
+			item=item["desc"]
 			result=self.compare(compared_data=item,compare_data=compare_data)
 			exe_result=json.dumps(self.success_desc(desc="db_pass"))
 			if result["code"]==1:
