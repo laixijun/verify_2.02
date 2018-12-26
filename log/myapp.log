@@ -1,273 +1,7 @@
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId1', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:165] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:43] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:301] {'msg1': '{msg1}', 'data': {'totalPage': 20, 'items': [{'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId}', 'goodsEan': '6922266451799'}, {'goodsName': '劲仔卤香小鱼50g', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId1}', 'goodsEan': '6951957202167'}], 'totalAmount': 40, 'itemPerPage': 2, 'currentPage': 1}, 'code1': '{code1}'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {msg1}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":"{code1}","data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] "{code1}"
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId1}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:830] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:637] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 192.168.2.10:8089
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://192.168.2.10:8089 "POST /user/httpbin HTTP/1.1" 200 1002
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:680] {"code1": 1001, "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "2/###/2065282", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "2/###/2020271", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.041916476139815424
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.18912962889059576
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.07098513706835878
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.33167222523823064
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:685] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:201] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:202] {'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] msg1
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] code1
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] goodsId
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:315] goodsId
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:316] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] []
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:406] []
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:407] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:271] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:690] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:691] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:834] {'desc': {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}, 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:701] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:707] [{'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}, ['code1', 'msg1', 'goodsId']]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:738] ['2/###/2065282','2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:739] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'list'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1297] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:743] {'desc': ['2/###/2065282', '2/###/2020271'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:750] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:751] <class 'list'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:752] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:753] <class 'list'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:797] [{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:836] {'desc': [[{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}], datetime.datetime(2018, 11, 20, 18, 19, 51, 65465)], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:843] {'desc': [[], 'pass'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:865] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 1, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 65465)]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:867] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 1, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 65465)]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:825] code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:37] code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1_int:1001', 'msg1:success', 'goodsId:2/###/2065282', 'goodsId1:2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1_int', '1001']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', '2/###/2065282']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId1', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:165] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:43] [['code1_int', 'msg1', 'goodsId', 'goodsId1'], ['1001', 'success', '2/###/2065282', '2/###/2020271']]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:301] {'msg1': '{msg1}', 'data': {'totalPage': 20, 'items': [{'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId}', 'goodsEan': '6922266451799'}, {'goodsName': '劲仔卤香小鱼50g', 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc3': '', 'goodsId': '{goodsId1}', 'goodsEan': '6951957202167'}], 'totalAmount': 40, 'itemPerPage': 2, 'currentPage': 1}, 'code1': '{code1}'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {msg1}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":"{code1}","data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] "{code1}"
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"{goodsId}","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"{goodsId1}","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1242] {goodsId1}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1244] key_dict in str_data
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1246] {"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:830] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:637] {'desc': ['http://192.168.2.10:8089/user/httpbin', {'msg1': 'success', 'data': {'currentPage': 1, 'items': [{'esls': [{'eslId': '50-08-DE-EE', 'categrayId': 101}, {'eslId': '50-B7-9B-EE', 'categrayId': 101}, {'eslId': '50-07-F4-EE', 'categrayId': 101}, {'eslId': '50-09-2C-EE', 'categrayId': 101}, {'eslId': '50-AD-06-EE', 'categrayId': 101}, {'eslId': '50-08-6A-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2065282', 'goodsDesc4': '', 'goodsId': '2/###/2065282', 'goodsName': '清风宝倍亲柔婴儿无香手口湿巾80片', 'goodsEan': '6922266451799', 'goodsDesc3': ''}, {'esls': [{'eslId': '52-53-92-03', 'categrayId': 55}, {'eslId': '50-B7-66-EE', 'categrayId': 101}, {'eslId': '50-AF-1E-EE', 'categrayId': 101}, {'eslId': '50-08-DF-EE', 'categrayId': 101}], 'goodsDesc': '', 'goodsDesc2': '', 'goodsDesc5': '', 'goodsSku': '2020271', 'goodsDesc4': '', 'goodsId': '2/###/2020271', 'goodsName': '劲仔卤香小鱼50g', 'goodsEan': '6951957202167', 'goodsDesc3': ''}], 'totalAmount': 40, 'itemPerPage': 2, 'totalPage': 20}, 'code1': 1001}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 192.168.2.10:8089
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://192.168.2.10:8089 "POST /user/httpbin HTTP/1.1" 200 1002
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:680] {"code1": 1001, "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "2/###/2065282", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "2/###/2020271", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "success"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.041916476139815424
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.18912962889059576
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.07098513706835878
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.33167222523823064
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.99
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-JP Japanese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-KR Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] Big5 Chinese confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] EUC-TW Taiwan confidence = 0.01
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:685] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:201] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:202] {'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] msg1
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] code1
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:207] goodsId
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:315] goodsId
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:316] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] []
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:367] ['"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"', '"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:406] []
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:407] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:271] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:690] {"args":"","code":100,"form":"","json":{"code1":1001,"data":{"currentPage":1,"itemPerPage":2,"items":[{"esls":[{"categrayId":101,"eslId":"50-08-DE-EE"},{"categrayId":101,"eslId":"50-B7-9B-EE"},{"categrayId":101,"eslId":"50-07-F4-EE"},{"categrayId":101,"eslId":"50-09-2C-EE"},{"categrayId":101,"eslId":"50-AD-06-EE"},{"categrayId":101,"eslId":"50-08-6A-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6922266451799","goodsId":"2/###/2065282","goodsName":"清风宝倍亲柔婴儿无香手口湿巾80片","goodsSku":"2065282"},{"esls":[{"categrayId":55,"eslId":"52-53-92-03"},{"categrayId":101,"eslId":"50-B7-66-EE"},{"categrayId":101,"eslId":"50-AF-1E-EE"},{"categrayId":101,"eslId":"50-08-DF-EE"}],"goodsDesc":"","goodsDesc2":"","goodsDesc3":"","goodsDesc4":"","goodsDesc5":"","goodsEan":"6951957202167","goodsId":"2/###/2020271","goodsName":"劲仔卤香小鱼50g","goodsSku":"2020271"}],"totalAmount":40,"totalPage":20},"msg1":"success"},"msg":"suc"}
-
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:691] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:834] {'desc': {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}, 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:701] {'msg1': 'success', 'code1': '1001', 'goodsId': ['2/###/2065282', '2/###/2020271']}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:17] ['code1:1001', 'msg1:success', "goodsId:['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['code1', '1001']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['msg1', 'success']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\compatibility.py [line:29] ['goodsId', "['2/###/2065282','2/###/2020271']"]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:707] [{'msg1': 'success', 'code1': '1001', 'goodsId': "['2/###/2065282','2/###/2020271']"}, ['code1', 'msg1', 'goodsId']]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:738] ['2/###/2065282','2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:739] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'list'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1297] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:743] {'desc': ['2/###/2065282', '2/###/2020271'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:750] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:751] <class 'list'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:752] ['2/###/2065282', '2/###/2020271']
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:753] <class 'list'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1284] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:1285] <class 'str'>
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:797] [{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:836] {'desc': [[{'msg': 'suc', 'pro': 'code1', 'code': 1}, {'msg': 'suc', 'pro': 'msg1', 'code': 1}, {'msg': 'suc', 'pro': 'goodsId', 'code': 1}], datetime.datetime(2018, 11, 20, 18, 19, 51, 465167)], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:843] {'desc': [[], 'pass'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:865] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 2, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 465167)]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:867] ['"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'cloudmonitor', 'rc1', 2, '接口测试', 'post_json', 'http://192.168.2.10:8089/user/httpbin', '', 'code1_int:1001;msg1:success;goodsId:2/###/2065282;goodsId1:2/###/2020271;', "code1:1001;msg1:success;goodsId:['2/###/2065282','2/###/2020271'];", '{"code1": "{code1}", "data": {"currentPage": 1, "itemPerPage": 2, "items": [{"esls": [{"categrayId": 101, "eslId": "50-08-DE-EE"}, {"categrayId": 101, "eslId": "50-B7-9B-EE"}, {"categrayId": 101, "eslId": "50-07-F4-EE"}, {"categrayId": 101, "eslId": "50-09-2C-EE"}, {"categrayId": 101, "eslId": "50-AD-06-EE"}, {"categrayId": 101, "eslId": "50-08-6A-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6922266451799", "goodsId": "{goodsId}", "goodsName": "清风宝倍亲柔婴儿无香手口湿巾80片", "goodsSku": "2065282"}, {"esls": [{"categrayId": 55, "eslId": "52-53-92-03"}, {"categrayId": 101, "eslId": "50-B7-66-EE"}, {"categrayId": 101, "eslId": "50-AF-1E-EE"}, {"categrayId": 101, "eslId": "50-08-DF-EE"}], "goodsDesc": "", "goodsDesc2": "", "goodsDesc3": "", "goodsDesc4": "", "goodsDesc5": "", "goodsEan": "6951957202167", "goodsId": "{goodsId1}", "goodsName": "劲仔卤香小鱼50g", "goodsSku": "2020271"}], "totalAmount": 40, "totalPage": 20}, "msg1": "{msg1}"}', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"code1": "1001", "goodsId": ["2/###/2065282", "2/###/2020271"], "msg1": "success"}}', 'pass', '[]', datetime.datetime(2018, 11, 20, 18, 19, 51, 465167)]
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\verify_v2.03\libs\view_params_deal.py [line:883] {'result': [{'exec_result': 'pass', 'error_result': [], 'id': 1, 'exec_time': '2018-11-20 18:19:51'}, {'exec_result': 'pass', 'error_result': [], 'id': 2, 'exec_time': '2018-11-20 18:19:51'}], 'uuid': '"7a8f9c64-3aa4-4fce-b50c-af1f176c86cb"', 'project_version': 'rc1', 'project_name': 'cloudmonitor', 'msg': 'suc', 'code': 1}
-2018-11-20 18:19:51 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [20/Nov/2018 18:19:51] "POST /user/api/push_v1 HTTP/1.1" 200 -
-2018-11-22 12:03:46 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-11-22 13:41:22 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [22/Nov/2018 13:41:22] "GET /user/create_db/ HTTP/1.1" 200 -
-2018-11-22 13:41:22 E:\virtualenv\hanshow\autoinfa\venv_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [22/Nov/2018 13:41:22] "GET /favicon.ico HTTP/1.1" 404 -
-2018-11-24 10:31:34 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-11-24 10:32:40 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/create_db/ [GET]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
-    return fn()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
-    return _ConnectionFairy._checkout(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
-    fairy = _ConnectionRecord.checkout(pool)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
-    rec = pool._do_get()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
-    self._dec_overflow()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
-    compat.reraise(exc_type, exc_value, exc_tb)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
-    return self._create_connection()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
-    return _ConnectionRecord(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
-    self.__connect(first_connect_check=True)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
-    connection = pool._invoke_creator(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
-    return dialect.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
-    return self.dbapi.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
-    return Connection(*args, **kwargs)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
-    self.connect()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
-    self._request_authentication()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
-    auth_packet = self._process_auth(plugin_name, auth_packet)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
-    pkt = self._read_packet()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
-    packet.check_error()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
-
-The above exception was the direct cause of the following exception:
-
+2018-12-20 10:07:59 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1039] [{'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'URL': 'http://127.0.0.1:5000/user/httpbin', 'id': 1, 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'id': 2, 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80'}, {'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'id': 3, 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10'}]
+2018-12-20 10:07:59 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:845] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
+2018-12-20 10:07:59 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
+2018-12-20 10:07:59 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/api/push_v1 [POST]
 Traceback (most recent call last):
   File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -281,410 +15,206 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 52, in create_db
-    db.create_all()
-  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 963, in create_all
-    self._execute_for_all_tables(app, bind, 'create_all')
-  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 955, in _execute_for_all_tables
-    op(bind=self.get_engine(app, bind), **extra)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\sql\schema.py", line 4005, in create_all
-    tables=tables)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1939, in _run_visitor
-    with self._optional_conn_ctx_manager(connection) as conn:
-  File "D:\ProgramFiles\Python35\Python35\lib\contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1932, in _optional_conn_ctx_manager
-    with self.contextual_connect() as conn:
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2123, in contextual_connect
-    self._wrap_pool_connect(self.pool.connect, None),
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2162, in _wrap_pool_connect
-    e, dialect, self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1476, in _handle_dbapi_exception_noconnection
-    exc_info
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 265, in raise_from_cause
-    reraise(type(exception), exception, tb=exc_tb, cause=cause)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 248, in reraise
-    raise value.with_traceback(tb)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
-    return fn()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
-    return _ConnectionFairy._checkout(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
-    fairy = _ConnectionRecord.checkout(pool)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
-    rec = pool._do_get()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
-    self._dec_overflow()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
-    compat.reraise(exc_type, exc_value, exc_tb)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
-    return self._create_connection()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
-    return _ConnectionRecord(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
-    self.__connect(first_connect_check=True)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
-    connection = pool._invoke_creator(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
-    return dialect.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
-    return self.dbapi.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
-    return Connection(*args, **kwargs)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
-    self.connect()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
-    self._request_authentication()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
-    auth_packet = self._process_auth(plugin_name, auth_packet)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
-    pkt = self._read_packet()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
-    packet.check_error()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)") (Background on this error at: http://sqlalche.me/e/e3q8)
-2018-11-24 10:32:41 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:32:41] "GET /user/create_db/ HTTP/1.1" 500 -
-2018-11-24 10:32:41 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:32:41] "GET /favicon.ico HTTP/1.1" 404 -
-2018-11-24 10:33:31 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/create_db/ [GET]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
-    return fn()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
-    return _ConnectionFairy._checkout(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
-    fairy = _ConnectionRecord.checkout(pool)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
-    rec = pool._do_get()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
-    self._dec_overflow()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
-    compat.reraise(exc_type, exc_value, exc_tb)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
-    return self._create_connection()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
-    return _ConnectionRecord(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
-    self.__connect(first_connect_check=True)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
-    connection = pool._invoke_creator(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
-    return dialect.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
-    return self.dbapi.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
-    return Connection(*args, **kwargs)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
-    self.connect()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
-    self._request_authentication()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
-    auth_packet = self._process_auth(plugin_name, auth_packet)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
-    pkt = self._read_packet()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
-    packet.check_error()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 307, in Interfaceautomation_v1
+    receive_data_to_db=TestParamsDeal().testparamsdeal()
+  File "F:\zhy\development\verify_v2.04\libs\view_params_deal.py", line 849, in testparamsdeal
+    example_json_params_str=test_param_list["example_json_params"])
+  File "F:\zhy\development\verify_v2.04\libs\view_params_deal.py", line 41, in url_deal_v1
+    params_name_value_dict=self.test_params_deal(test_params=test_params)
+  File "F:\zhy\development\verify_v2.04\libs\view_params_deal.py", line 165, in test_params_deal
+    test_params_list_dict=GETCompatibility().semicolon_colon_exists(test_params)
+  File "F:\zhy\development\verify_v2.04\libs\compatibility.py", line 30, in semicolon_colon_exists
+    test_param_lists = test_params_list.split(':')
+AttributeError: 'list' object has no attribute 'split'
+2018-12-20 10:07:59 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [20/Dec/2018 10:07:59] "POST /user/api/push_v1 HTTP/1.1" 500 -
+2018-12-20 10:12:52 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-20 14:05:46 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:831] {'project_version': 'V0.1', 'project_name': 'httpbin', 'test_param': [{'URL': 'http://127.0.0.1:5000/user/httpbin', 'test_descript': 'test', 'id': 1, 'method': 'post_json', 'infa_name': '接口', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test_descript': 'test', 'id': 2, 'method': 'post_json', 'infa_name': '接口', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_descript': 'test', 'id': 3, 'method': 'post_json', 'infa_name': '接口', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80'}]}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1039] [{'URL': 'http://127.0.0.1:5000/user/httpbin', 'test_descript': 'test', 'id': 1, 'method': 'post_json', 'infa_name': '接口', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test_descript': 'test', 'id': 2, 'method': 'post_json', 'infa_name': '接口', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_descript': 'test', 'id': 3, 'method': 'post_json', 'infa_name': '接口', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80'}]
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:845] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:322] {"pro_uuid":"{pro_uuid}"}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {pro_uuid}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:850] {'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:658] {'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:04 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-20 14:06:04 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [20/Dec/2018 14:06:04] "POST /user/httpbin HTTP/1.1" 200 -
+2018-12-20 14:06:04 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbin HTTP/1.1" 200 104
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:701] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:706] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
 
-The above exception was the direct cause of the following exception:
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
 
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 52, in create_db
-    db.create_all()
-  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 963, in create_all
-    self._execute_for_all_tables(app, bind, 'create_all')
-  File "F:\zhy\development\env_work\lib\site-packages\flask_sqlalchemy\__init__.py", line 955, in _execute_for_all_tables
-    op(bind=self.get_engine(app, bind), **extra)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\sql\schema.py", line 4005, in create_all
-    tables=tables)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1939, in _run_visitor
-    with self._optional_conn_ctx_manager(connection) as conn:
-  File "D:\ProgramFiles\Python35\Python35\lib\contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1932, in _optional_conn_ctx_manager
-    with self.contextual_connect() as conn:
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2123, in contextual_connect
-    self._wrap_pool_connect(self.pool.connect, None),
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2162, in _wrap_pool_connect
-    e, dialect, self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1476, in _handle_dbapi_exception_noconnection
-    exc_info
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 265, in raise_from_cause
-    reraise(type(exception), exception, tb=exc_tb, cause=cause)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 248, in reraise
-    raise value.with_traceback(tb)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 2158, in _wrap_pool_connect
-    return fn()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 400, in connect
-    return _ConnectionFairy._checkout(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 788, in _checkout
-    fairy = _ConnectionRecord.checkout(pool)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 529, in checkout
-    rec = pool._do_get()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1193, in _do_get
-    self._dec_overflow()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
-    compat.reraise(exc_type, exc_value, exc_tb)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 1190, in _do_get
-    return self._create_connection()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 347, in _create_connection
-    return _ConnectionRecord(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 474, in __init__
-    self.__connect(first_connect_check=True)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\pool.py", line 671, in __connect
-    connection = pool._invoke_creator(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\strategies.py", line 106, in connect
-    return dialect.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 412, in connect
-    return self.dbapi.connect(*cargs, **cparams)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\__init__.py", line 94, in Connect
-    return Connection(*args, **kwargs)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 327, in __init__
-    self.connect()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 598, in connect
-    self._request_authentication()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 862, in _request_authentication
-    auth_packet = self._process_auth(plugin_name, auth_packet)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 933, in _process_auth
-    pkt = self._read_packet()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
-    packet.check_error()
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)") (Background on this error at: http://sqlalche.me/e/e3q8)
-2018-11-24 10:33:31 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:33:31] "GET /user/create_db/ HTTP/1.1" 500 -
-2018-11-24 10:35:03 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-11-24 10:35:13 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [24/Nov/2018 10:35:13] "GET /user/create_db/ HTTP/1.1" 200 -
-2018-11-25 10:22:11 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-11-25 10:23:24 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:23:24] "GET /user/create_db/ HTTP/1.1" 200 -
-2018-11-25 10:23:24 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:23:24] "GET /favicon.ico HTTP/1.1" 404 -
-2018-11-25 10:36:18 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:36:18] "GET /user/create_db/ HTTP/1.1" 200 -
-2018-11-25 10:38:51 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-11-25 10:38:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:38:57] "GET /user/create_db/ HTTP/1.1" 200 -
-2018-11-25 10:40:02 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [25/Nov/2018 10:40:02] "GET /user/create_db/ HTTP/1.1" 200 -
-2018-12-08 17:37:16 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 17:38:19 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:38:19] "GET /user/insert_test HTTP/1.1" 405 -
-2018-12-08 17:38:19 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:38:19] "GET /favicon.ico HTTP/1.1" 404 -
-2018-12-08 17:38:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 17:39:14 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [GET]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 29, in insert_test
-    db_actul_result, exe_result)
-  File "F:\zhy\development\verify_v2.04\App\models.py", line 199, in instert_db
-    ebf = ExtraDbFile(uuid,project_name,project_version,infa_url,test_descript,db_item,db_compare_result,db_actul_result,exe_result)
-TypeError: __init__() missing 3 required positional arguments: 'file_compare_result', 'file_actul_result', and 'exe_result'
-2018-12-08 17:39:14 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:39:14] "GET /user/insert_test HTTP/1.1" 500 -
-2018-12-08 17:51:42 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 17:51:52 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [GET]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 29, in insert_test
-    db_actul_result, exe_result)
-  File "F:\zhy\development\verify_v2.04\App\models.py", line 201, in instert_db
-    db.session.commit()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\scoping.py", line 153, in do
-    return getattr(self.registry(), name)(*args, **kwargs)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 943, in commit
-    self.transaction.commit()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 467, in commit
-    self._prepare_impl()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 447, in _prepare_impl
-    self.session.flush()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 2254, in flush
-    self._flush(objects)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 2380, in _flush
-    transaction.rollback(_capture_exception=True)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\langhelpers.py", line 66, in __exit__
-    compat.reraise(exc_type, exc_value, exc_tb)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\session.py", line 2344, in _flush
-    flush_context.execute()
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 391, in execute
-    rec.execute(self)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 556, in execute
-    uow
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\persistence.py", line 181, in save_obj
-    mapper, table, insert)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\orm\persistence.py", line 866, in _emit_insert_statements
-    execute(statement, params)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 948, in execute
-    return meth(self, multiparams, params)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
-    return connection._execute_clauseelement(self, multiparams, params)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
-    compiled_sql, distilled_params
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
-    context)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1416, in _handle_dbapi_exception
-    util.reraise(*exc_info)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\util\compat.py", line 249, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
-    context)
-  File "F:\zhy\development\env_work\lib\site-packages\sqlalchemy\engine\default.py", line 509, in do_execute
-    cursor.execute(statement, parameters)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 168, in execute
-    query = self.mogrify(query, args)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 147, in mogrify
-    query = query % self._escape_args(args, conn)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 127, in _escape_args
-    return dict((key, conn.literal(val)) for (key, val) in args.items())
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\cursors.py", line 127, in <genexpr>
-    return dict((key, conn.literal(val)) for (key, val) in args.items())
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 469, in literal
-    return self.escape(obj, self.encoders)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\connections.py", line 462, in escape
-    return converters.escape_item(obj, self.charset, mapping=mapping)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\converters.py", line 27, in escape_item
-    val = encoder(val, mapping)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\converters.py", line 118, in escape_unicode
-    return u"'%s'" % _escape_unicode(value)
-  File "F:\zhy\development\env_work\lib\site-packages\pymysql\converters.py", line 73, in _escape_unicode
-    return value.translate(_escape_table)
-AttributeError: 'builtin_function_or_method' object has no attribute 'translate'
-2018-12-08 17:51:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 17:51:53] "GET /user/insert_test HTTP/1.1" 500 -
-2018-12-08 18:06:28 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 18:06:39 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:06:39] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 18:08:20 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 18:09:13 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:09:13] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 18:12:51 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 18:12:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:12:57] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 18:26:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 18:26:39 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 18:26:39] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 19:17:09 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 19:17:33 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:17:33] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 19:18:46 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:18:46] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 19:20:36 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 19:20:41 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:20:41] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 19:22:21 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 19:22:30 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 19:22:30] "GET /user/insert_test HTTP/1.1" 200 -
-2018-12-08 22:28:16 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 22:28:20 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:28:20] "POST /user/insert_test HTTP/1.1" 405 -
-2018-12-08 22:28:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 22:28:58 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 44, in insert_test
-    pro_uuid=request.form.to_dict()["pro_uuid"]
-KeyError: 'pro_uuid'
-2018-12-08 22:28:58 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:28:58] "POST /user/insert_test HTTP/1.1" 500 -
-2018-12-08 22:30:14 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 22:30:19 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 46, in insert_test
-    pro_uuid=pro_uuid1["pro_uuid"]
-KeyError: 'pro_uuid'
-2018-12-08 22:30:19 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:30:19] "POST /user/insert_test HTTP/1.1" 500 -
-2018-12-08 22:31:10 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 46, in insert_test
-    pro_uuid=pro_uuid1["pro_uuid"]
-KeyError: 'pro_uuid'
-2018-12-08 22:31:10 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:31:10] "POST /user/insert_test HTTP/1.1" 500 -
-2018-12-08 22:31:35 F:\zhy\development\env_work\lib\site-packages\flask\app.py [line:1761] Exception on /user/insert_test [POST]
-Traceback (most recent call last):
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 2292, in wsgi_app
-    response = self.full_dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "F:\zhy\development\env_work\lib\site-packages\flask\_compat.py", line 35, in reraise
-    raise value
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "F:\zhy\development\env_work\lib\site-packages\flask\app.py", line 1799, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "F:\zhy\development\verify_v2.04\App\user_views.py", line 47, in insert_test
-    a=ExtraDbFile.search(pro_uuid)
-  File "F:\zhy\development\verify_v2.04\App\models.py", line 218, in search
-    result_data["uuid"]=result.uuid
-AttributeError: 'list' object has no attribute 'uuid'
-2018-12-08 22:31:35 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:31:35] "POST /user/insert_test HTTP/1.1" 500 -
-2018-12-08 22:40:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-08 22:40:35 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [08/Dec/2018 22:40:35] "POST /user/insert_test HTTP/1.1" 200 -
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:228] pro_uuid
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:292] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
+
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:862] {'code': 1, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:727] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1312] <class 'str'>
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:817] [{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}]
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:864] {'code': 1, 'desc': [[{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}], datetime.datetime(2018, 12, 20, 14, 6, 4, 865191)], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:871] {'code': 1, 'desc': [[], 'pass'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:04 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:893] ['"639350e7-5226-444a-b2ba-139fe7211453"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 20, 14, 6, 4, 865191)]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:895] ['"639350e7-5226-444a-b2ba-139fe7211453"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 20, 14, 6, 4, 865191)]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:845] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['name', 'age']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {name}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age={age}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {age}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:322] {"pro_uuid":"{pro_uuid}"}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {pro_uuid}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:850] {'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:658] {'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 12
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [20/Dec/2018 14:06:07] "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 -
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 154
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:701] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:706] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:228] name
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:228] age
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:228] pro_uuid
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:292] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:862] {'code': 1, 'desc': {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:727] [{'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1312] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1312] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1312] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:817] [{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:864] {'code': 1, 'desc': [[{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}], datetime.datetime(2018, 12, 20, 14, 6, 7, 370729)], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:871] {'code': 1, 'desc': [[], 'pass'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:893] ['"639350e7-5226-444a-b2ba-139fe7211453"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 20, 14, 6, 7, 370729)]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:895] ['"639350e7-5226-444a-b2ba-139fe7211453"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 20, 14, 6, 7, 370729)]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:845] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {item}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {age}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:322] {"pro_uuid":"{pro_uuid}","name":"{name}"}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {name}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] {"pro_uuid":"{pro_uuid}","name":"小明"}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1270] {pro_uuid}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] key_dict in str_data
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:850] {'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:658] {'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [20/Dec/2018 14:06:07] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:701] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:706] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:228] name
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:228] age
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:228] pro_uuid
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:292] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:862] {'code': 1, 'desc': {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:727] [{'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1312] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1312] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1312] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:817] [{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:864] {'code': 1, 'desc': [[{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}], datetime.datetime(2018, 12, 20, 14, 6, 7, 734500)], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:871] {'code': 1, 'desc': [[], 'pass'], 'Msg': 'Suc', 'ErroCode': None}
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:893] ['"639350e7-5226-444a-b2ba-139fe7211453"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 20, 14, 6, 7, 734500)]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:895] ['"639350e7-5226-444a-b2ba-139fe7211453"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 20, 14, 6, 7, 734500)]
+2018-12-20 14:06:07 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:911] {'result': [{'error_result': [], 'exec_time': '2018-12-20 14:06:04', 'id': 1, 'exec_result': 'pass'}, {'error_result': [], 'exec_time': '2018-12-20 14:06:07', 'id': 2, 'exec_result': 'pass'}, {'error_result': [], 'exec_time': '2018-12-20 14:06:07', 'id': 3, 'exec_result': 'pass'}], 'project_version': 'V0.1', 'msg': 'suc', 'code': 1, 'uuid': '"639350e7-5226-444a-b2ba-139fe7211453"', 'project_name': 'httpbin'}
+2018-12-20 14:06:07 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [20/Dec/2018 14:06:07] "POST /user/api/push_v1 HTTP/1.1" 200 -

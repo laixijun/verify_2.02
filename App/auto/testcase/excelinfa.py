@@ -123,8 +123,8 @@ class TestExcelINFA(object):
 
 	#请求接口，接收测试结果
 	def infaData(self,readdata):
-		url="http://192.168.2.10:8088/user/api/push_v1"
-		# url = "http://127.0.0.1:5000/user/api/push_v1"
+		# url="http://192.168.2.10:8088/user/api/push_v1"
+		url = "http://127.0.0.1:5000/user/api/push_v1"
 		data=json.dumps(readdata,ensure_ascii=False)
 		print(data)
 		headers = {

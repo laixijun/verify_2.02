@@ -27,7 +27,7 @@ class GETCompatibility:
 					else:
 						return ReturnDesc("传入用例参数格式有误", 801).false_desc()
 			elif len(test_params_list) == 1:
-				test_param_lists = test_params_list.split(':')
+				test_param_lists = test_params_list[0].split(':')
 				logger.debug(test_param_lists)
 				if len(test_param_lists) > 1:
 					params_name.append(test_param_lists[0])
@@ -64,7 +64,7 @@ class GETCompatibility:
 					else:
 						return ReturnDesc("传入用例参数格式有误", 801).false_desc()
 			elif len(test_params_list) == 1:
-				test_param_lists = test_params_list.split(':')
+				test_param_lists = test_params_list[0].split(':')
 				logger.debug(test_param_lists)
 				if len(test_param_lists) > 1:
 					if test_param_lists[0] == "":
