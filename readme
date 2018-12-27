@@ -21,8 +21,12 @@ http://192.168.2.10:8088/user/resultDBFILE/
 1、增加对数据库的校验
 2、增加数据库表
 3、
+
+使用"___"隔开
 数据库
 用户名，密码，host，port，db，查询值，dt，键，值，时间，db
+root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid='639350e7-5226-444a-b2ba-139fe7211453' and id = 1___null___null___null___10___db
+如果使用sql语句查询，则dt，键，值，等于Null
 文件
 路径，正则表达式，时间,file
 ip, username, passwd, cmd

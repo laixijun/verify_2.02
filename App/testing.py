@@ -1,4 +1,9 @@
+import json
+
 import paramiko
+
+from libs.mysqlhelper import MysqlHelper
+
 
 class RemoteSource:
 	def __init__(self):
@@ -37,24 +42,38 @@ class RemoteSource:
 
 if __name__=='__main__':
 	#cmd = ['find /home/admin/logs/ -mtime +3 -name \'*.log.*\' -exec rm -rf {} \;']#你要执行的命令列表
-	cmd = ['cat /tmp/zhy/a.log']#你要执行的命令列表
-	username = "root"  #用户名
-	passwd = "123456"    #密码
-	threads = []   #多线程
-	ip = "192.168.31.118"
-	print("Begin......")
-	port=22
-	method="get"
-	local="C:/Users/zhy/Desktop/a.log"
-	motive="/tmp/zhy/a.log"
-	# a=threading.Thread(target=ssh,args=(ip,username,passwd,cmd))
-	# a.start()
-	# a=ssh(ip,username,passwd,cmd)
-	# # sftp(ip, port, username, passwd, method, local, motive)
-	# print(a)
-	# # input()
-	a=':fasdfwefsdfs'
-	a = a.split(':')
-	print(len(a))
-	if a[0]=="":
-		print("ok")
+	# cmd = ['cat /tmp/zhy/a.log']#你要执行的命令列表
+	# username = "root"  #用户名
+	# passwd = "123456"    #密码
+	# threads = []   #多线程
+	# ip = "192.168.31.118"
+	# print("Begin......")
+	# port=22
+	# method="get"
+	# local="C:/Users/zhy/Desktop/a.log"
+	# motive="/tmp/zhy/a.log"
+	# # a=threading.Thread(target=ssh,args=(ip,username,passwd,cmd))
+	# # a.start()
+	# # a=ssh(ip,username,passwd,cmd)
+	# # # sftp(ip, port, username, passwd, method, local, motive)
+	# # print(a)
+	# # # input()
+	# a=':fasdfwefsdfs'
+	# a = a.split(':')
+	# print(len(a))
+	# if a[0]=="":
+	# 	print("ok")
+	# mySql = MysqlHelper(USER='root', PASSWD='123456', HOST='127.0.0.1', PORT=3307, DB='htai')
+	# sql="a___select infa_url from new_report_test where uuid='\"639350e7-5226-444a-b2ba-139fe7211453\"' and id = 1"
+	# print(sql)
+	# sql_list=sql.split("___")
+	# print(sql_list)
+	# sql=sql_list[1]
+	# print(sql)
+	# data=mySql.get_one(sql)
+	# print(data)
+	a=[1,2,3,4,5,6]
+	for i in a:
+		if i==2:
+			continue
+		print(i)

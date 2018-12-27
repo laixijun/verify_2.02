@@ -36,16 +36,22 @@ class MysqlAssert:
 	# 执行sql语句
 	def exeSql(self,search_item,search_dt,search_key,search_value):
 		try:
-			sql="select "+search_item+" from "+search_dt+" where "+search_key+" = %s"
-			params=(search_value)
-			result=self.getMysql().get_one(sql,params)
+			if search_dt =="Null" or search_dt =="null" :
+				sql=search_item
+				result = self.getMysql().get_one(sql)
+				logger.debug(result)
+			else:
+				sql="select "+search_item+" from "+search_dt+" where "+search_key+" = %s"
+				params=(search_value)
+				result=self.getMysql().get_one(sql,params)
+			logger.debug(result)
 			if result[0]:
 				return ReturnDesc(desc=result[0]).success_desc()
 			else:
 				return ReturnDesc(desc=ERRRecord.REMOTEMYSQLCONTENT, code=ERRRecord.REMOTEMYSQLCONTENTNO).false_desc()
 
 		except:
-			return ReturnDesc(desc=ERRRecord.REMOTEMYSQL,code=ERRRecord.REMOTEMYSQNO).false_desc()
+			return ReturnDesc(desc=ERRRecord.REMOTEMYSQL,code=ERRRecord.REMOTEMYSQLNO).false_desc()
 
 
 	# 校验结果
@@ -133,12 +139,14 @@ class MysqlAssert:
 
 
 if __name__ =="__main__":
-	MA=MysqlAssert("root","123456","192.168.2.10",3306,"Htai")
+	MA=MysqlAssert("root","123456","127.0.0.1",3307,"Htai")
 
 	"select project_version from new_report_test where uuid = '019c96ed-c3d2-4458-a49d-8d79e3b91bbe'"
 	search_item="project_version"
 	search_dt="new_report_test"
+	search_dt = "null"
 	search_key="uuid"
 	search_value='"019c96ed-c3d2-4458-a49d-8d79e3b91bbe"'
 	a=MA.exeSql(search_item,search_dt,search_key,search_value)
+	# a = MA.exeSql()
 	print(a)

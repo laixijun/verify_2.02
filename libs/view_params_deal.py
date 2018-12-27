@@ -190,26 +190,29 @@ class SoursDeal(object):
 			file_db_dict={}
 			for except_name_single in except_descript_list[0]:
 				if except_name_single[-3:]=="_db" or except_name_single[-5:]=="_file":
-					except_name_single_list=except_name_single.split("_")
+					except_name_single_list=except_name_single.split("___")
+					logger.debug(except_name_single_list)
 					file_db_dict[except_name_single]=except_name_single_list
-					time=int(except_name_single_list[-1])
+					time=int(except_name_single_list[-2])
 					compare_data = except_descript_list[1][except_value_index]
 					except_value_index += 1
 					if except_name_single_list[10] =="db":
+						port=int(except_name_single_list[3])
 						MA=MysqlAssert(USER=except_name_single_list[0],PASSWD=except_name_single_list[1],
-									   HOST=except_name_single_list[2],PORT=except_name_single_list[3],DB=except_name_single_list[4])
+									   HOST=except_name_single_list[2],PORT=port,DB=except_name_single_list[4])
 						func=MA.mysqlAssertMain
-						threadingTimer(time, func,(except_name_single_list[5], except_name_single_list[6], except_name_single_list[7],
+						threadingTimer(time, func(except_name_single_list[5], except_name_single_list[6], except_name_single_list[7],
 												   except_name_single_list[8],compare_data,uuid,project_name,project_version,id,infa_url,test_descript))
 					elif except_name_single_list[10] =="file":
 						func = FileAssert().fileAssertMain
-						threadingTimer(time, func, (
+						threadingTimer(time, func(
 						except_name_single_list[0], except_name_single_list[1], except_name_single_list[2],
 						except_name_single_list[3],except_name_single_list[4], compare_data, uuid, project_name, project_version, id, infa_url,
 						test_descript))
 					continue
 				except_descript_deal_dict[except_name_single] = except_descript_list[1][except_value_index]
 				except_value_index += 1
+				logger.debug([except_descript_deal_dict,except_descript_list[0],file_db_dict])
 			return ReturnDesc([except_descript_deal_dict,except_descript_list[0],file_db_dict]).success_desc()
 	# 实际结果解析,返回格式需要时json
 	# 如果字符串中键存在的个数为1个正常处理
