@@ -77,3 +77,12 @@ if __name__=='__main__':
 		if i==2:
 			continue
 		print(i)
+
+[['pro_uuid', 'name', 'age',
+  'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'],
+ [ '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80',
+											   'http://127.0.0.1:5000/user/httpbin']]
+
+[{'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80'},
+ ['pro_uuid', 'name', 'age',
+  'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {}]

@@ -1,4 +1,5 @@
 import re
+import threading
 from collections import Counter
 from datetime import datetime
 from uuid import uuid4
@@ -188,6 +189,8 @@ class SoursDeal(object):
 			except_value_index = 0
 			except_descript_deal_dict={}
 			file_db_dict={}
+			except_descript_list_list=[]
+			logger.debug(except_descript_list)
 			for except_name_single in except_descript_list[0]:
 				if except_name_single[-3:]=="_db" or except_name_single[-5:]=="_file":
 					except_name_single_list=except_name_single.split("___")
@@ -201,19 +204,23 @@ class SoursDeal(object):
 						MA=MysqlAssert(USER=except_name_single_list[0],PASSWD=except_name_single_list[1],
 									   HOST=except_name_single_list[2],PORT=port,DB=except_name_single_list[4])
 						func=MA.mysqlAssertMain
-						threadingTimer(time, func(except_name_single_list[5], except_name_single_list[6], except_name_single_list[7],
-												   except_name_single_list[8],compare_data,uuid,project_name,project_version,id,infa_url,test_descript))
+						timer= threading.Timer(time, func, [except_name_single_list[5], except_name_single_list[6],
+															except_name_single_list[7], except_name_single_list[8],
+															compare_data, uuid, project_name, project_version, id, infa_url, test_descript])
+						timer.start()
 					elif except_name_single_list[10] =="file":
 						func = FileAssert().fileAssertMain
-						threadingTimer(time, func(
+						timer = threading.Timer(time, func,(
 						except_name_single_list[0], except_name_single_list[1], except_name_single_list[2],
 						except_name_single_list[3],except_name_single_list[4], compare_data, uuid, project_name, project_version, id, infa_url,
 						test_descript))
+						timer.start()
 					continue
 				except_descript_deal_dict[except_name_single] = except_descript_list[1][except_value_index]
+				except_descript_list_list.append(except_name_single)
 				except_value_index += 1
-				logger.debug([except_descript_deal_dict,except_descript_list[0],file_db_dict])
-			return ReturnDesc([except_descript_deal_dict,except_descript_list[0],file_db_dict]).success_desc()
+			logger.debug([except_descript_deal_dict,except_descript_list_list,file_db_dict])
+			return ReturnDesc([except_descript_deal_dict,except_descript_list_list,file_db_dict]).success_desc()
 	# 实际结果解析,返回格式需要时json
 	# 如果字符串中键存在的个数为1个正常处理
 	# 如果字符串中键存在的个数大于1时需要将所有值放到列表中并与键组成键值

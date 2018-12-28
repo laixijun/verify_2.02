@@ -1,402 +1,572 @@
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:864] {'code': 1, 'ErroCode': None, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, 'Msg': 'Suc'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:724] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:729] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:819] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:866] {'code': 1, 'ErroCode': None, 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 27, 18, 2, 26, 175226)], 'Msg': 'Suc'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:873] {'code': 1, 'ErroCode': None, 'desc': [[], 'pass'], 'Msg': 'Suc'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:895] ['"1468769d-0c07-458d-9cd6-a8bf7f7e6527"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 2, 26, 175226)]
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:897] ['"1468769d-0c07-458d-9cd6-a8bf7f7e6527"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 2, 26, 175226)]
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:847] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] {item}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] key_dict in str_data
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1276] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] {age}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] key_dict in str_data
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1276] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:324] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] {pro_uuid}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] key_dict in str_data
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1276] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1272] {name}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1274] key_dict in str_data
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1276] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:852] {'code': 1, 'ErroCode': None, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'Msg': 'Suc'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['name', '小明']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['age', '80']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['', '']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:194] ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:42] ('http://127.0.0.1:5000/user/httpbin',)
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:47] ('http://127.0.0.1:5000/user/httpbin',)
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:660] {'code': 1, 'ErroCode': None, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'Msg': 'Suc'}
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 18:02:26] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:703] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:708] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
 
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
 
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:225] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:230] pro_uuid
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:230] name
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:230] age
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:294] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}], datetime.datetime(2018, 12, 28, 16, 6, 20, 684603)]}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 684603)]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 684603)]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:60] ['name', 'age']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {name}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age={age}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {age}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:75] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 12
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:06:20] "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 -
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 154
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:714] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:864] {'code': 1, 'ErroCode': None, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, 'Msg': 'Suc'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:724] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:729] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:02:26 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:866] {'code': 0, 'desc': '预期结果与实际结果key错误 : \'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \\\'"639350e7-5226-444a-b2ba-139fe7211453"\\\' and id = 1___null___null___null___10___db\'', 'Msg': 'Fail'}
-2018-12-27 18:02:26 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 18:02:26] "POST /user/api/push_v1 HTTP/1.1" 200 -
-2018-12-27 18:10:14 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:834] {'test_param': [{'URL': 'http://127.0.0.1:5000/user/httpbin', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'id': 1, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'id': 2, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'id': 3, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'id': 4, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10'}], 'project_name': 'httpbin', 'project_version': 'V0.1'}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1042] [{'URL': 'http://127.0.0.1:5000/user/httpbin', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'id': 1, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'id': 2, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'id': 3, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10'}, {'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'test_descript': 'test', 'method': 'post_json', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'id': 4, 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10'}]
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:848] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:325] {"pro_uuid":"{pro_uuid}"}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {pro_uuid}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:853] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:661] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:57 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 18:10:57 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 18:10:57] "POST /user/httpbin HTTP/1.1" 200 -
-2018-12-27 18:10:57 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbin HTTP/1.1" 200 104
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:704] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:709] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:225] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] name
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] age
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:226] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] pro_uuid
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:295] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:714] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 28, 16, 6, 20, 812530)]}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 812530)]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 812530)]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:60] ['item', 'age']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {item}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {age}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:75] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}","name":"{name}"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {name}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:06:20] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:715] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'code': 1}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:725] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:730] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:820] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}]
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:867] {'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}], datetime.datetime(2018, 12, 27, 18, 10, 57, 881406)], 'code': 1}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass'], 'code': 1}
-2018-12-27 18:10:57 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"cec6e1be-3bd0-4d11-b389-bfac3f72fd32"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 10, 57, 881406)]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:898] ['"cec6e1be-3bd0-4d11-b389-bfac3f72fd32"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 10, 57, 881406)]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:848] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['name', 'age']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {name}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age={age}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {age}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:325] {"pro_uuid":"{pro_uuid}"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {pro_uuid}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:853] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'name': 'xiaomin', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:661] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 12
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 18:10:58] "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 -
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 154
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:704] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:709] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:225] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] name
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] age
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:226] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] name
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] age
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] pro_uuid
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:295] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:714] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 28, 16, 6, 20, 875486)]}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 875486)]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 875486)]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:60] ['item', 'age']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {item}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {age}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:75] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}","name":"{name}"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {name}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['name', '小明']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['age', '80']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['', '']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', 'http://127.0.0.1:5000/user/httpbin']]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:197] ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:06:20] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:06:20 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:715] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'Msg': 'Suc', 'desc': {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:725] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:730] [{'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:820] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:867] {'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}], datetime.datetime(2018, 12, 27, 18, 10, 58, 20321)], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"cec6e1be-3bd0-4d11-b389-bfac3f72fd32"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 10, 58, 20321)]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:898] ['"cec6e1be-3bd0-4d11-b389-bfac3f72fd32"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 10, 58, 20321)]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:848] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {item}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {age}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:325] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {name}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] {"pro_uuid":"{pro_uuid}","name":"小明"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {pro_uuid}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:853] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:661] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 18:10:58] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:704] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:709] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:225] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] name
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] age
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:226] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] name
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] age
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] pro_uuid
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:295] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:714] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 28, 16, 6, 20, 966447)]}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:06:20 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 4, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 966447)]
+2018-12-28 16:06:21 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'httpbin', 'V0.1', 4, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 6, 20, 966447)]
+2018-12-28 16:06:21 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:921] {'code': 1, 'uuid': '"6097d24f-3976-415f-b7e2-f8300e05f2e7"', 'result': [{'exec_time': '2018-12-28 16:06:20', 'error_result': [], 'exec_result': 'pass', 'id': 1}, {'exec_time': '2018-12-28 16:06:20', 'error_result': [], 'exec_result': 'pass', 'id': 2}, {'exec_time': '2018-12-28 16:06:20', 'error_result': [], 'exec_result': 'pass', 'id': 3}, {'exec_time': '2018-12-28 16:06:20', 'error_result': [], 'exec_result': 'pass', 'id': 4}], 'msg': 'suc', 'project_version': 'V0.1', 'project_name': 'httpbin'}
+2018-12-28 16:06:21 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:06:21] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-12-28 16:06:30 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:42] ('http://127.0.0.1:5000/user/httpbin',)
+2018-12-28 16:06:30 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:47] ('http://127.0.0.1:5000/user/httpbin',)
+2018-12-28 16:06:30 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:86] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': 'http://127.0.0.1:5000/user/httpbin'}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:841] {'test_param': [{'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbin', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'id': 1, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'id': 2, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'id': 3, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123457___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'id': 4, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}'}], 'project_version': 'V0.1', 'project_name': 'httpbin'}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1049] [{'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbin', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'id': 1, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'id': 2, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}"}'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'id': 3, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}'}, {'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'method': 'post_json', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123457___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'id': 4, 'infa_name': '接口', 'test_descript': 'test', 'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}'}]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}"}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
+2018-12-28 16:07:31 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-28 16:07:31 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:07:31] "POST /user/httpbin HTTP/1.1" 200 -
+2018-12-28 16:07:31 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbin HTTP/1.1" 200 104
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:715] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'Msg': 'Suc', 'desc': {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:725] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:730] [{'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:820] [{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:867] {'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'pro': 'pro_uuid', 'code': 1}, {'msg': 'suc', 'pro': 'name', 'code': 1}, {'msg': 'suc', 'pro': 'age', 'code': 1}], datetime.datetime(2018, 12, 27, 18, 10, 58, 82282)], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"cec6e1be-3bd0-4d11-b389-bfac3f72fd32"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 10, 58, 82282)]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:898] ['"cec6e1be-3bd0-4d11-b389-bfac3f72fd32"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 18, 10, 58, 82282)]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:848] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {item}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {age}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:325] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {name}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] {"pro_uuid":"{pro_uuid}","name":"小明"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] {pro_uuid}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] key_dict in str_data
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1277] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:853] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['name', '小明']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['age', '80']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['', '']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:215] [{'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:194] ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:42] ('http://127.0.0.1:5000/user/httpbin',)
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:47] ('http://127.0.0.1:5000/user/httpbin',)
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:661] {'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'name': '小明', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 18:10:58] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:704] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:709] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:225] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:226] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] name
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] age
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:231] pro_uuid
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:295] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:714] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}], datetime.datetime(2018, 12, 28, 16, 7, 31, 844825)]}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 31, 844825)]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 31, 844825)]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:60] ['name', 'age']
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {name}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age={age}
+2018-12-28 16:07:31 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {age}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:75] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 12
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:07:32] "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 -
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 154
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:715] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'Msg': 'Suc', 'desc': {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'code': 1}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:725] {'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:730] [{'name': '小明', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1315] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1316] <class 'str'>
-2018-12-27 18:10:58 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:867] {'Msg': 'Fail', 'desc': '预期结果与实际结果key错误 : \'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \\\'"639350e7-5226-444a-b2ba-139fe7211453"\\\' and id = 1___null___null___null___10___db\'', 'code': 0}
-2018-12-27 18:10:58 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 18:10:58] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] name
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] age
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 28, 16, 7, 32, 29711)]}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 32, 29711)]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 32, 29711)]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:60] ['item', 'age']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {item}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {age}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:75] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}","name":"{name}"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {name}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80']]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:07:32] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] name
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] age
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 28, 16, 7, 32, 93669)]}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 32, 93669)]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 32, 93669)]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:60] ['item', 'age']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {item}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {age}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:75] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}","name":"{name}"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {name}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['name', '小明']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['age', '80']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['', '']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid', 'name', 'age', 'root___123457___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', 'http://127.0.0.1:5000/user/httpbin']]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:197] ['root', '123457', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {'root___123457___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123457', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:07:32] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] name
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] age
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {'root___123457___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123457', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 28, 16, 7, 32, 165624)]}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'code': 1, 'ErroCode': None, 'Msg': 'Suc', 'desc': [[], 'pass']}
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 4, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123457___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 32, 165624)]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"8ecb1a19-5268-45c3-894d-016108c70e68"', 'httpbin', 'V0.1', 4, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123457___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 28, 16, 7, 32, 165624)]
+2018-12-28 16:07:32 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:921] {'code': 1, 'uuid': '"8ecb1a19-5268-45c3-894d-016108c70e68"', 'result': [{'exec_time': '2018-12-28 16:07:31', 'error_result': [], 'exec_result': 'pass', 'id': 1}, {'exec_time': '2018-12-28 16:07:32', 'error_result': [], 'exec_result': 'pass', 'id': 2}, {'exec_time': '2018-12-28 16:07:32', 'error_result': [], 'exec_result': 'pass', 'id': 3}, {'exec_time': '2018-12-28 16:07:32', 'error_result': [], 'exec_result': 'pass', 'id': 4}], 'msg': 'suc', 'project_version': 'V0.1', 'project_name': 'httpbin'}
+2018-12-28 16:07:32 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:07:32] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-12-28 16:07:42 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:42] None
+2018-12-28 16:07:42 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:47] None
+2018-12-28 16:07:42 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:86] {'code': 0, 'ErroCode': 704, 'Msg': 'Fail', 'desc': 'mysql测试数据读取失败'}
+2018-12-28 16:10:52 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:10:52] "POST /user/resultDBFILE HTTP/1.1" 200 -
+2018-12-28 16:11:36 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [28/Dec/2018 16:11:36] "POST /user/resultDBFILE HTTP/1.1" 200 -
