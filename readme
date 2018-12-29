@@ -28,10 +28,18 @@ http://192.168.2.10:8088/user/resultDBFILE/
 root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid='639350e7-5226-444a-b2ba-139fe7211453' and id = 1___null___null___null___10___db
 如果使用sql语句查询，则dt，键，值，等于Null
 文件
-路径，正则表达式，时间,file
-ip, username, passwd, cmd
-ip,用户名，密码，cmd,正则表达式，时间，file
-
+ip,用户名，密码，cmd,正则表达式，文件是否本地，时间，file
+127.0.0.1___zhy___xyz.1117___type E:/mysql_log.log___C:\Program Files\MySQL\(.*?)5.7\___local___10___file   MySQL Server
+127.0.0.1___zhy___xyz.1117___E:/mysql_log.log___C:\Program Files\MySQL\(.*?)5.7\___local___10___file   MySQL Server
+文件是否本地  local/remote
+如果为local
+IP，用户名，密码为null
+cmd 为文件path
 
 待解决：
 预期参数分析时，如果参数存在；会导致解析错误
+
+file验证
+1.支持本地文件
+2.window文件字符编码
+

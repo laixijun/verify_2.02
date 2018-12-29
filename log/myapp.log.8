@@ -1,622 +1,436 @@
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'ErroCode': None, 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 12
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:39:53] "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 -
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 154
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"3dafaf4d-a068-428a-a245-42dd338c4626"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 29, 14, 51, 48, 51671)]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"3dafaf4d-a068-428a-a245-42dd338c4626"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 29, 14, 51, 48, 51671)]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:855] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:41] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:169] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:47] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:60] ['item', 'age']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {item}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {age}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:75] http://127.0.0.1:5000/user/httpbinitem/10?age=80
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:332] {"pro_uuid":"{pro_uuid}","name":"{name}"}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {pro_uuid}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1280] {name}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1282] key_dict in str_data
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1284] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:860] {'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'code': 1, 'ErroCode': None}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['name', '小明']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['age', '80']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['', '']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:193] [['pro_uuid', 'name', 'age', '127.0.0.1___zhy___xyz.1117___E:/mysql_log.log___2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z___local___10___file'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', 'MySQL Server ']]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:197] ['127.0.0.1', 'zhy', 'xyz.1117', 'E:/mysql_log.log', '2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z', 'local', '10', 'file']
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:222] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}, ['pro_uuid', 'name', 'age'], {'127.0.0.1___zhy___xyz.1117___E:/mysql_log.log___2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z___local___10___file': ['127.0.0.1', 'zhy', 'xyz.1117', 'E:/mysql_log.log', '2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z', 'local', '10', 'file']}]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:668] {'Msg': 'Suc', 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'code': 1, 'ErroCode': None}
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [29/Dec/2018 14:51:48] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:711] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:716] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:232] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] name
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] age
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:233] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] pro_uuid
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] age
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:238] name
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:302] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:721] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
 
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'ErroCode': None, 'code': 1, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}, 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:818] [{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'code': 1, 'desc': [[{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}], datetime.datetime(2018, 12, 27, 17, 39, 53, 302909)], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'ErroCode': None, 'code': 1, 'desc': [[], 'pass'], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:894] ['"ec27718c-7d3c-45d3-96ba-99da0dacbe34"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 39, 53, 302909)]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"ec27718c-7d3c-45d3-96ba-99da0dacbe34"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 39, 53, 302909)]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {item}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {age}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {name}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'ErroCode': None, 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'ErroCode': None, 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:39:53] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:722] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'Msg': 'Suc', 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}, 'code': 1, 'ErroCode': None}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:732] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:737] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'age': '80', 'name': '小明'}, ['pro_uuid', 'name', 'age'], {'127.0.0.1___zhy___xyz.1117___E:/mysql_log.log___2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z___local___10___file': ['127.0.0.1', 'zhy', 'xyz.1117', 'E:/mysql_log.log', '2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z', 'local', '10', 'file']}]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1322] <class 'str'>
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1323] <class 'str'>
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:827] [{'msg': 'suc', 'code': 1, 'pro': 'pro_uuid'}, {'msg': 'suc', 'code': 1, 'pro': 'name'}, {'msg': 'suc', 'code': 1, 'pro': 'age'}]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:874] {'Msg': 'Suc', 'desc': [[{'msg': 'suc', 'code': 1, 'pro': 'pro_uuid'}, {'msg': 'suc', 'code': 1, 'pro': 'name'}, {'msg': 'suc', 'code': 1, 'pro': 'age'}], datetime.datetime(2018, 12, 29, 14, 51, 48, 136618)], 'code': 1, 'ErroCode': None}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:881] {'Msg': 'Suc', 'desc': [[], 'pass'], 'code': 1, 'ErroCode': None}
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:903] ['"3dafaf4d-a068-428a-a245-42dd338c4626"', 'httpbin', 'V0.1', 4, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-127.0.0.1___zhy___xyz.1117___E:/mysql_log.log___2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z___local___10___file-):(-MySQL Server -);', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 29, 14, 51, 48, 136618)]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:905] ['"3dafaf4d-a068-428a-a245-42dd338c4626"', 'httpbin', 'V0.1', 4, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-127.0.0.1___zhy___xyz.1117___E:/mysql_log.log___2018-10-11T11:44:19.622987Z(.*?)\n2018-10-11T11:44:19.642032Z___local___10___file-):(-MySQL Server -);', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 29, 14, 51, 48, 136618)]
+2018-12-29 14:51:48 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:921] {'code': 1, 'project_name': 'httpbin', 'msg': 'suc', 'project_version': 'V0.1', 'uuid': '"3dafaf4d-a068-428a-a245-42dd338c4626"', 'result': [{'error_result': [], 'exec_result': 'pass', 'id': 1, 'exec_time': '2018-12-29 14:51:47'}, {'error_result': [], 'exec_result': 'pass', 'id': 2, 'exec_time': '2018-12-29 14:51:47'}, {'error_result': [], 'exec_result': 'pass', 'id': 3, 'exec_time': '2018-12-29 14:51:48'}, {'error_result': [], 'exec_result': 'pass', 'id': 4, 'exec_time': '2018-12-29 14:51:48'}]}
+2018-12-29 14:51:48 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [29/Dec/2018 14:51:48] "POST /user/api/push_v1 HTTP/1.1" 200 -
+2018-12-29 14:51:58 F:\zhy\development\verify_v2.04\App\V204\fileassert.py [line:31] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe, Version: 5.7.18-log (MySQL Community Server (GPL)). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+2018-10-11T11:43:55.193364Z	    8 Quit	
+2018-10-11T11:44:00.626847Z	    9 Connect	root@localhost on  using TCP/IP
+2018-10-11T11:44:00.626847Z	    9 Query	select @@version_comment limit 1
+2018-10-11T11:44:04.049646Z	    9 Query	show variables like '%general_log%'
+2018-10-11T11:44:19.618988Z	   10 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:44:19.620950Z	   10 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:44:19.622987Z	   10 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"7988599d-e585-4bf8-955c-0c0d551af2b4\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:44:17.561469'),('\"7988599d-e585-4bf8-955c-0c0d551af2b4\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:44:18.904538'),('\"7988599d-e585-4bf8-955c-0c0d551af2b4\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:44:19.610966')
+2018-10-11T11:44:19.642032Z	   10 Query	COMMIT
+2018-10-11T11:45:08.462223Z	    5 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T11:45:08.463226Z	    5 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T11:45:10.664216Z	    5 Quit	
+2018-10-11T11:45:15.497160Z	    4 Query	TRUNCATE `new_report_test`
+2018-10-11T11:45:15.679350Z	    4 Query	SHOW FULL TABLES WHERE Table_type != 'VIEW'
+2018-10-11T11:45:16.799806Z	   11 Connect	root@localhost on  using TCP/IP
+2018-10-11T11:45:16.799806Z	   11 Query	SET NAMES utf8
+2018-10-11T11:45:16.799806Z	   11 Init DB	flask_db
+2018-10-11T11:45:16.799806Z	   11 Query	SHOW TABLE STATUS LIKE 'new_report_test'
+2018-10-11T11:45:16.802814Z	   11 Query	SHOW ENGINES
+2018-10-11T11:45:16.802814Z	    4 Query	SHOW CREATE TABLE `new_report_test`
+2018-10-11T11:45:16.839944Z	   11 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T11:45:16.839944Z	   11 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T11:45:28.264961Z	   12 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.265930Z	   12 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.266933Z	   12 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"06a77045-5ec4-40fe-bf1c-698e17e33395\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.036569'),('\"06a77045-5ec4-40fe-bf1c-698e17e33395\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.636511'),('\"06a77045-5ec4-40fe-bf1c-698e17e33395\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.253933')
+2018-10-11T11:45:28.268938Z	   13 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.268938Z	   13 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.269943Z	   13 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"ce650ff1-98fe-4a65-9c05-b738a54c4075\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.119904'),('\"ce650ff1-98fe-4a65-9c05-b738a54c4075\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.685626'),('\"ce650ff1-98fe-4a65-9c05-b738a54c4075\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.263956')
+2018-10-11T11:45:28.288017Z	   13 Query	COMMIT
+2018-10-11T11:45:28.320074Z	   13 Query	COMMIT
+2018-10-11T11:45:28.352207Z	   14 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.352207Z	   15 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.352207Z	   14 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.353162Z	   15 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.353162Z	   14 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"20667bef-9670-4900-8fa4-12cd3286b178\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.018520'),('\"20667bef-9670-4900-8fa4-12cd3286b178\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.751770'),('\"20667bef-9670-4900-8fa4-12cd3286b178\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.324084')
+2018-10-11T11:45:28.353162Z	   15 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"c82992fd-de20-4d3f-8ad0-a9fcd85309f8\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.173457'),('\"c82992fd-de20-4d3f-8ad0-a9fcd85309f8\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.727739'),('\"c82992fd-de20-4d3f-8ad0-a9fcd85309f8\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.338149')
+2018-10-11T11:45:28.403745Z	   15 Query	COMMIT
+2018-10-11T11:45:28.427194Z	   15 Query	COMMIT
+2018-10-11T11:45:28.541520Z	   16 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.541520Z	   17 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.548541Z	   18 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.549522Z	   19 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.550547Z	   21 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.550547Z	   16 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.550547Z	   17 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.550547Z	   18 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.550547Z	   19 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.551523Z	   20 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.552524Z	   16 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"966a085c-f7c9-41ce-9e1c-eba0a05996be\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.249135'),('\"966a085c-f7c9-41ce-9e1c-eba0a05996be\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.822119'),('\"966a085c-f7c9-41ce-9e1c-eba0a05996be\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.477365')
+2018-10-11T11:45:28.552524Z	   17 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"3af17fb2-2a51-4b19-bec3-6f79902be446\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.233061'),('\"3af17fb2-2a51-4b19-bec3-6f79902be446\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.860220'),('\"3af17fb2-2a51-4b19-bec3-6f79902be446\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.485378')
+2018-10-11T11:45:28.552524Z	   18 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"43de756a-8611-4d7b-84bb-50f63c4ae717\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.288210'),('\"43de756a-8611-4d7b-84bb-50f63c4ae717\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.869244'),('\"43de756a-8611-4d7b-84bb-50f63c4ae717\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.502421')
+2018-10-11T11:45:28.552524Z	   19 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"93fea396-8311-4f78-9607-be3915eeaa24\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.241085'),('\"93fea396-8311-4f78-9607-be3915eeaa24\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.848217'),('\"93fea396-8311-4f78-9607-be3915eeaa24\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.517460')
+2018-10-11T11:45:28.553527Z	   20 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.553527Z	   21 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.553527Z	   20 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"9f600a0f-f2bd-4c3f-b0bf-226ce38034f3\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.260136'),('\"9f600a0f-f2bd-4c3f-b0bf-226ce38034f3\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.877294'),('\"9f600a0f-f2bd-4c3f-b0bf-226ce38034f3\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.523479')
+2018-10-11T11:45:28.554529Z	   21 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"7cbfacb9-38ec-4eb2-8c62-5580896c9e8b\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.365829'),('\"7cbfacb9-38ec-4eb2-8c62-5580896c9e8b\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.962834'),('\"7cbfacb9-38ec-4eb2-8c62-5580896c9e8b\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.536509')
+2018-10-11T11:45:28.556538Z	   21 Query	COMMIT
+2018-10-11T11:45:28.611478Z	   21 Query	COMMIT
+2018-10-11T11:45:28.611478Z	   21 Query	COMMIT
+2018-10-11T11:45:28.612480Z	   21 Query	COMMIT
+2018-10-11T11:45:28.613483Z	   21 Query	COMMIT
+2018-10-11T11:45:28.615488Z	   21 Query	COMMIT
+2018-10-11T11:45:28.653132Z	   22 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.654109Z	   22 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.656108Z	   22 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"c1c59889-2c79-4cad-9047-9c1f8079e9f5\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.395957'),('\"c1c59889-2c79-4cad-9047-9c1f8079e9f5\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.011331'),('\"c1c59889-2c79-4cad-9047-9c1f8079e9f5\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.645124')
+2018-10-11T11:45:28.673189Z	   22 Query	COMMIT
+2018-10-11T11:45:28.728301Z	   23 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.728301Z	   24 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.728301Z	   25 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.728301Z	   26 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.729332Z	   23 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.729332Z	   24 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.729332Z	   25 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.729332Z	   26 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.729332Z	   27 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.730305Z	   23 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"e0bcca6f-8f38-47db-82e9-b3cb2e8a6f1c\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.466481'),('\"e0bcca6f-8f38-47db-82e9-b3cb2e8a6f1c\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.090081'),('\"e0bcca6f-8f38-47db-82e9-b3cb2e8a6f1c\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.671193')
+2018-10-11T11:45:28.730305Z	   24 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"ee0d634d-bb5e-4467-904f-d8dec8a30abe\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.521582'),('\"ee0d634d-bb5e-4467-904f-d8dec8a30abe\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.075012'),('\"ee0d634d-bb5e-4467-904f-d8dec8a30abe\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.688194')
+2018-10-11T11:45:28.731308Z	   25 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"2af37f79-6b22-4d7f-a8f3-89e1fac89260\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.499524'),('\"2af37f79-6b22-4d7f-a8f3-89e1fac89260\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.108130'),('\"2af37f79-6b22-4d7f-a8f3-89e1fac89260\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.701228')
+2018-10-11T11:45:28.731308Z	   26 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"56197ebe-9edf-4a07-9447-a7110dacca7f\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.486498'),('\"56197ebe-9edf-4a07-9447-a7110dacca7f\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.100103'),('\"56197ebe-9edf-4a07-9447-a7110dacca7f\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.712289')
+2018-10-11T11:45:28.733313Z	   27 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.737325Z	   27 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"94acc932-6ad5-4feb-9878-2ee5421d29d2\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.512559'),('\"94acc932-6ad5-4feb-9878-2ee5421d29d2\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.152247'),('\"94acc932-6ad5-4feb-9878-2ee5421d29d2\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.722313')
+2018-10-11T11:45:28.747350Z	   26 Query	COMMIT
+2018-10-11T11:45:28.747350Z	   27 Query	COMMIT
+2018-10-11T11:45:28.795159Z	   27 Query	COMMIT
+2018-10-11T11:45:28.795159Z	   27 Query	COMMIT
+2018-10-11T11:45:28.966950Z	   28 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.966950Z	   29 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.967953Z	   30 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.967953Z	   31 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.968956Z	   28 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.968956Z	   29 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.968956Z	   30 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.968956Z	   31 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.968956Z	   32 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:28.969958Z	   28 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"523c4376-7f99-42dc-aaff-9e0bd79acd7d\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.705650'),('\"523c4376-7f99-42dc-aaff-9e0bd79acd7d\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.345141'),('\"523c4376-7f99-42dc-aaff-9e0bd79acd7d\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.898807')
+2018-10-11T11:45:28.970960Z	   29 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"deb0dd7a-569d-494a-98ba-249b7d4a2f53\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.733750'),('\"deb0dd7a-569d-494a-98ba-249b7d4a2f53\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.309073'),('\"deb0dd7a-569d-494a-98ba-249b7d4a2f53\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.917866')
+2018-10-11T11:45:28.971964Z	   30 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"a5d45935-134c-47cb-9b7f-59ba9e608353\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.656563'),('\"a5d45935-134c-47cb-9b7f-59ba9e608353\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.284981'),('\"a5d45935-134c-47cb-9b7f-59ba9e608353\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.932906')
+2018-10-11T11:45:28.971964Z	   31 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"3b7d30d0-bd7c-4a30-87a7-ee3ebddd8af5\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.744779'),('\"3b7d30d0-bd7c-4a30-87a7-ee3ebddd8af5\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.330100'),('\"3b7d30d0-bd7c-4a30-87a7-ee3ebddd8af5\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.946943')
+2018-10-11T11:45:28.971964Z	   32 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:28.972966Z	   31 Query	COMMIT
+2018-10-11T11:45:28.980988Z	   32 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"ee783b9d-3106-42d0-993d-302d1ebd32c6\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.715709'),('\"ee783b9d-3106-42d0-993d-302d1ebd32c6\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.317066'),('\"ee783b9d-3106-42d0-993d-302d1ebd32c6\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.958930')
+2018-10-11T11:45:28.982993Z	   32 Query	COMMIT
+2018-10-11T11:45:28.994022Z	   31 Query	COMMIT
+2018-10-11T11:45:28.994022Z	   31 Query	COMMIT
+2018-10-11T11:45:28.994022Z	   31 Query	COMMIT
+2018-10-11T11:45:29.003046Z	   33 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.004050Z	   33 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.004050Z	   33 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"5d90df0b-c0e3-49b2-9532-a94b592c6eb3\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.738763'),('\"5d90df0b-c0e3-49b2-9532-a94b592c6eb3\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.392583'),('\"5d90df0b-c0e3-49b2-9532-a94b592c6eb3\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.001069')
+2018-10-11T11:45:29.125235Z	   34 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.127241Z	   34 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.127241Z	   35 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.128243Z	   36 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.129246Z	   34 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"6e4fbf56-bad0-43e1-8f0b-31a99a54d6de\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.571938'),('\"6e4fbf56-bad0-43e1-8f0b-31a99a54d6de\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.205738'),('\"6e4fbf56-bad0-43e1-8f0b-31a99a54d6de\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.075131')
+2018-10-11T11:45:29.129246Z	   35 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.130249Z	   36 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.130249Z	   37 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.137297Z	   38 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.138270Z	   34 Query	COMMIT
+2018-10-11T11:45:29.138270Z	   35 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"2656d890-c362-455a-a81c-972b9d6975aa\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.799093'),('\"2656d890-c362-455a-a81c-972b9d6975aa\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.441279'),('\"2656d890-c362-455a-a81c-972b9d6975aa\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.086171')
+2018-10-11T11:45:29.139300Z	   36 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"7f626843-4917-45ce-a597-6aca88474c2a\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.853202'),('\"7f626843-4917-45ce-a597-6aca88474c2a\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.508437'),('\"7f626843-4917-45ce-a597-6aca88474c2a\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.103205')
+2018-10-11T11:45:29.139300Z	   37 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.139300Z	   38 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.141279Z	   37 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"5ba49a1c-0a6c-4cef-afe6-a0a2ae0caba4\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.909351'),('\"5ba49a1c-0a6c-4cef-afe6-a0a2ae0caba4\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.528492'),('\"5ba49a1c-0a6c-4cef-afe6-a0a2ae0caba4\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.114236')
+2018-10-11T11:45:29.142281Z	   38 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"ff2a9972-2b44-41b9-b642-c1a880911f98\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.953780'),('\"ff2a9972-2b44-41b9-b642-c1a880911f98\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.546535'),('\"ff2a9972-2b44-41b9-b642-c1a880911f98\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.121255')
+2018-10-11T11:45:29.144288Z	   39 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.144288Z	   39 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.145289Z	   39 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"d63c5849-11ab-42cb-9591-28a56932c413\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.833149'),('\"d63c5849-11ab-42cb-9591-28a56932c413\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.459319'),('\"d63c5849-11ab-42cb-9591-28a56932c413\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.136295')
+2018-10-11T11:45:29.161334Z	   40 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T11:45:29.162362Z	   40 Query	SET AUTOCOMMIT = 0
+2018-10-11T11:45:29.162362Z	   40 Query	insert into new_report_test(uuid,project_name,project_version,id,infa_name,infa_method,infa_url,test_descript,test_params,except_descript,example_json_params,actul_descript,exec_result,error_result,exec_time) values('\"ed735714-ac3e-403b-be6f-c3d7156d5f82\"','Promotion_wise','rc1',1,'get请求，无参数','post','http://www.httpbin.org/post','test','pagesize:2;pagenum:1;','pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:27.893308'),('\"ed735714-ac3e-403b-be6f-c3d7156d5f82\"','Promotion_wise','rc1',2,'get请求，无参数','post','http://www.httpbin.org/post?name={name}&age={age}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:28.492394'),('\"ed735714-ac3e-403b-be6f-c3d7156d5f82\"','Promotion_wise','rc1',3,'get请求，无参数','post','http://www.httpbin.org/post?name={name}','test','name:xiaoming;age:81;pagesize:2;pagenum:1;','name:xiaoming;age:81;pagesize:2;pagenum:1;','\"\"','{\"ErroCode\": null, \"Msg\": \"Suc\", \"code\": 1, \"desc\": {\"age\": \"81\", \"name\": \"xiaoming\", \"pagenum\": \"1\", \"pagesize\": \"2\"}}','pass','[]','2018-10-11 19:45:29.159326')
+2018-10-11T11:45:29.187624Z	   36 Query	COMMIT
+2018-10-11T11:45:29.189662Z	   40 Query	COMMIT
+2018-10-11T11:45:29.237325Z	   40 Query	COMMIT
+2018-10-11T11:45:29.237325Z	   40 Query	COMMIT
+2018-10-11T11:45:29.237325Z	   40 Query	COMMIT
+2018-10-11T11:46:06.057495Z	   11 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T11:46:06.058527Z	   11 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:11:16.036815Z	   41 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.037317Z	   42 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.037317Z	   43 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.037818Z	   41 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.037818Z	   42 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.037818Z	   43 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.083624Z	   44 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.084126Z	   44 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.087133Z	   45 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.087133Z	   45 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.277990Z	   46 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.277990Z	   47 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.278965Z	   46 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.278965Z	   47 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.317196Z	   48 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.317196Z	   48 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.351460Z	   49 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.351460Z	   49 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.401639Z	   50 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.401639Z	   50 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.454849Z	   51 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.455853Z	   51 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.520966Z	   52 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.522937Z	   52 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.693575Z	   53 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.695580Z	   53 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.695580Z	   54 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.696583Z	   55 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.699591Z	   54 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.699591Z	   55 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.699591Z	   56 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.699591Z	   57 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.700594Z	   58 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.700594Z	   59 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.704627Z	   56 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.704627Z	   57 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.704627Z	   58 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.704627Z	   59 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.705608Z	   60 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.705608Z	   61 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.711627Z	   60 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.711627Z	   61 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.723685Z	   62 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.723685Z	   62 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.767697Z	   63 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.768199Z	   63 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.818862Z	   64 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.819391Z	   64 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.909174Z	   65 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.909174Z	   66 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.909651Z	   65 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.910181Z	   66 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:16.910181Z	   67 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:16.914662Z	   67 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:17.072280Z	   68 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:17.072780Z	   68 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:11:17.292632Z	   69 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:11:17.293597Z	   69 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:15:40.742877Z	   11 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:15:40.744855Z	   11 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:15:43.890136Z	   11 Quit	
+2018-10-11T12:15:47.980541Z	    4 Query	TRUNCATE `new_report_test`
+2018-10-11T12:15:48.172836Z	    4 Query	SHOW FULL TABLES WHERE Table_type != 'VIEW'
+2018-10-11T12:15:49.515133Z	   70 Connect	root@localhost on  using TCP/IP
+2018-10-11T12:15:49.515133Z	   70 Query	SET NAMES utf8
+2018-10-11T12:15:49.516135Z	   70 Init DB	flask_db
+2018-10-11T12:15:49.516135Z	   70 Query	SHOW TABLE STATUS LIKE 'new_report_test'
+2018-10-11T12:15:49.518140Z	   70 Query	SHOW ENGINES
+2018-10-11T12:15:49.518140Z	    4 Query	SHOW CREATE TABLE `new_report_test`
+2018-10-11T12:15:49.556242Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:15:49.556242Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:16:04.713879Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:16:04.714881Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:16:39.527320Z	   71 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.527320Z	   72 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.527320Z	   73 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.527320Z	   74 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.529326Z	   71 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.529326Z	   72 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.529326Z	   73 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.529326Z	   74 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.529326Z	   75 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.529326Z	   76 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.530329Z	   77 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.530329Z	   78 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.536346Z	   75 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.536346Z	   76 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.537348Z	   77 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.537348Z	   78 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.582849Z	   79 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.612930Z	   79 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.704971Z	   80 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.707978Z	   80 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.707978Z	   81 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.708479Z	   82 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.708479Z	   83 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.708980Z	   84 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.711487Z	   81 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.713994Z	   82 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.713994Z	   83 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.714495Z	   84 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.714997Z	   85 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.714997Z	   86 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.714997Z	   87 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.715497Z	   88 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.721513Z	   85 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.721513Z	   86 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.722015Z	   87 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.722015Z	   88 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.755147Z	   89 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.755676Z	   89 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.790297Z	   90 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.790799Z	   90 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.802830Z	   91 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.802830Z	   91 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.919330Z	   92 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.919330Z	   93 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.919832Z	   94 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.920834Z	   92 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.920834Z	   93 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.920834Z	   94 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.921336Z	   95 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.921336Z	   96 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.930360Z	   95 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.930360Z	   96 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:39.989402Z	   97 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:39.990405Z	   97 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.135292Z	   98 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.137297Z	   98 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.138300Z	   99 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.138300Z	  100 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.138300Z	  101 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.139303Z	  105 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.140305Z	  107 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.143313Z	   99 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.144316Z	  100 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.146321Z	  101 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.149329Z	  102 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.150332Z	  103 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.150332Z	  104 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.151335Z	  105 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.151335Z	  106 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.151335Z	  107 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.154343Z	  102 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.156349Z	  103 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.156349Z	  104 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.158353Z	  106 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.162364Z	  108 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.168380Z	  108 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.288700Z	  109 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.288700Z	  110 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.288700Z	  111 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.288700Z	  112 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.289704Z	  109 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.289704Z	  110 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.289704Z	  111 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.289704Z	  112 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.300732Z	  113 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.306748Z	  113 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.310759Z	  114 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.311762Z	  114 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.339836Z	  115 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.340839Z	  115 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:40.929988Z	  116 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:40.930489Z	  116 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:41.190040Z	  117 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:41.192003Z	  117 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:41.522024Z	  118 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:41.523527Z	  118 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:49.386398Z	  119 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:49.387391Z	  119 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:16:50.595062Z	  120 Connect	root@localhost on flask_db using TCP/IP
+2018-10-11T12:16:50.597067Z	  120 Query	SET AUTOCOMMIT = 0
+2018-10-11T12:19:18.075453Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:19:18.075453Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:19:19.268704Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:19:19.269708Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:19:19.563671Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:19:19.563671Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:19:19.771363Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:19:19.771363Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:19:19.978586Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:19:19.978586Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:19:20.227687Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:19:20.227687Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:20:06.666954Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:20:06.667962Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:36:11.691238Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:36:11.692240Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:36:27.940999Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:36:27.941500Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:36:29.342279Z	   70 Query	SELECT * FROM `new_report_test` LIMIT 0, 1000
+2018-10-11T12:36:29.342279Z	   70 Query	SHOW COLUMNS FROM `flask_db`.`new_report_test`
+2018-10-11T12:47:47.382966Z	    9 Quit	
 
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] name
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] age
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'ErroCode': None, 'code': 1, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:818] [{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'code': 1, 'desc': [[{'code': 1, 'pro': 'pro_uuid', 'msg': 'suc'}, {'code': 1, 'pro': 'name', 'msg': 'suc'}, {'code': 1, 'pro': 'age', 'msg': 'suc'}], datetime.datetime(2018, 12, 27, 17, 39, 53, 559753)], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'ErroCode': None, 'code': 1, 'desc': [[], 'pass'], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:894] ['"ec27718c-7d3c-45d3-96ba-99da0dacbe34"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 39, 53, 559753)]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"ec27718c-7d3c-45d3-96ba-99da0dacbe34"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 39, 53, 559753)]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {item}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/10?age={age}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {age}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {name}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'ErroCode': None, 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['name', '小明']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['age', '80']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['', '']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:194] ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:41] select infa_url from new_report_test where uuid = '"639350e7-5226-444a-b2ba-139fe7211453"' and id = 1
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:42] select infa_url from new_report_test where uuid = '"639350e7-5226-444a-b2ba-139fe7211453"' and id = 1
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:50] None
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'ErroCode': None, 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json'], 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:39:53] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] name
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] age
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'ErroCode': None, 'code': 1, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, 'Msg': 'Suc'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明', 'age': '80'}, ['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:39:53 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'code': 0, 'desc': '预期结果与实际结果key错误 : \'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \\\'"639350e7-5226-444a-b2ba-139fe7211453"\\\' and id = 1___null___null___null___10___db\'', 'Msg': 'Fail'}
-2018-12-27 17:39:53 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:39:53] "POST /user/api/push_v1 HTTP/1.1" 200 -
-2018-12-27 17:50:29 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:832] {'project_name': 'httpbin', 'test_param': [{'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 1, 'URL': 'http://127.0.0.1:5000/user/httpbin', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'method': 'post_json'}, {'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 2, 'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'method': 'post_json'}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 3, 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'method': 'post_json'}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 4, 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'method': 'post_json'}], 'project_version': 'V0.1'}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1040] [{'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 1, 'URL': 'http://127.0.0.1:5000/user/httpbin', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'method': 'post_json'}, {'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 2, 'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'method': 'post_json'}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 3, 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'method': 'post_json'}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'infa_name': '接口', 'test_descript': 'test', 'id': 4, 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'method': 'post_json'}]
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}"}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
-2018-12-27 17:51:05 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:51:05 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:51:05] "POST /user/httpbin HTTP/1.1" 200 -
-2018-12-27 17:51:05 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbin HTTP/1.1" 200 104
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
-
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
-
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
-
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:818] [{'pro': 'pro_uuid', 'msg': 'suc', 'code': 1}]
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': [[{'pro': 'pro_uuid', 'msg': 'suc', 'code': 1}], datetime.datetime(2018, 12, 27, 17, 51, 5, 968047)]}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': [[], 'pass']}
-2018-12-27 17:51:05 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:894] ['"04f60cc1-744b-4a88-a50e-69a05c1d8c3a"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 51, 5, 968047)]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"04f60cc1-744b-4a88-a50e-69a05c1d8c3a"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 51, 5, 968047)]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['name', 'age']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {age}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {name}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json']}
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 12
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:51:06] "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 -
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 154
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] age
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] name
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': 'xiaomin'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:818] [{'pro': 'pro_uuid', 'msg': 'suc', 'code': 1}, {'pro': 'name', 'msg': 'suc', 'code': 1}, {'pro': 'age', 'msg': 'suc', 'code': 1}]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': [[{'pro': 'pro_uuid', 'msg': 'suc', 'code': 1}, {'pro': 'name', 'msg': 'suc', 'code': 1}, {'pro': 'age', 'msg': 'suc', 'code': 1}], datetime.datetime(2018, 12, 27, 17, 51, 6, 110958)]}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': [[], 'pass']}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:894] ['"04f60cc1-744b-4a88-a50e-69a05c1d8c3a"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 51, 6, 110958)]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"04f60cc1-744b-4a88-a50e-69a05c1d8c3a"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 51, 6, 110958)]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {age}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/{item}?age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {item}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {name}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:51:06] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] age
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] name
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:818] [{'pro': 'pro_uuid', 'msg': 'suc', 'code': 1}, {'pro': 'name', 'msg': 'suc', 'code': 1}, {'pro': 'age', 'msg': 'suc', 'code': 1}]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': [[{'pro': 'pro_uuid', 'msg': 'suc', 'code': 1}, {'pro': 'name', 'msg': 'suc', 'code': 1}, {'pro': 'age', 'msg': 'suc', 'code': 1}], datetime.datetime(2018, 12, 27, 17, 51, 6, 181914)]}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': [[], 'pass']}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:894] ['"04f60cc1-744b-4a88-a50e-69a05c1d8c3a"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 51, 6, 181914)]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"04f60cc1-744b-4a88-a50e-69a05c1d8c3a"', 'httpbin', 'V0.1', 3, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\",\\"name\\":\\"{name}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 51, 6, 181914)]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {age}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/{item}?age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {item}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"{name}"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {name}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d","name":"小明"}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['name', '小明']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['age', '80']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:52] ['', '']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:194] ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:41] select infa_url from new_report_test where uuid = '"639350e7-5226-444a-b2ba-139fe7211453"' and id = 1
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:42] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\App\V204\mysqlAssert.py [line:50] None
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': ['http://127.0.0.1:5000/user/httpbinitem/10?age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, 'post_json']}
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 10
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:51:06] "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 -
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/10?age=80 HTTP/1.1" 200 153
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"name": "小明", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\eucjpprober.py [line:62] EUC-JP Japanese prober hit error at byte 84
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-KR Korean prober hit error at byte 82
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] Big5 Chinese prober hit error at byte 82
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\mbcharsetprober.py [line:66] EUC-TW Taiwan prober hit error at byte 82
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Russian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] KOI8-R Russian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Russian confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] MacCyrillic Russian confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM866 Russian confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] IBM855 Russian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-7 Greek confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1253 Greek confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-5 Bulgairan confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1251 Bulgarian confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] TIS-620 Thai confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] ISO-8859-9 Turkish confidence = 0.44634927217029713
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.0
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] windows-1255 Hebrew confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] utf-8  confidence = 0.7525
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] SHIFT_JIS Japanese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-JP not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] GB2312 Chinese confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-KR not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:100] CP949 Korean confidence = 0.01
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] Big5 not active
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\chardet\charsetgroupprober.py [line:97] EUC-TW not active
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] age
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] name
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"item":"10","result":{"args":{"age":"80"},"code":100,"form":"","json":{"name":"小明","pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'ErroCode': None, 'Msg': 'Suc', 'code': 1, 'desc': {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'name': '小明'}, ['pro_uuid', 'name', 'age', 'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db'], {'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db': ['root', '123456', '127.0.0.1', '3307', 'htai', 'select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1', 'null', 'null', 'null', '10', 'db']}]
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:51:06 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'Msg': 'Fail', 'code': 0, 'desc': '预期结果与实际结果key错误 : \'root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \\\'"639350e7-5226-444a-b2ba-139fe7211453"\\\' and id = 1___null___null___null___10___db\''}
-2018-12-27 17:51:06 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:51:06] "POST /user/api/push_v1 HTTP/1.1" 200 -
-2018-12-27 17:56:35 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:832] {'test_param': [{'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'URL': 'http://127.0.0.1:5000/user/httpbin', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'id': 1}, {'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'id': 2}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'id': 3}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'id': 4}], 'project_version': 'V0.1', 'project_name': 'httpbin'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1040] [{'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'URL': 'http://127.0.0.1:5000/user/httpbin', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'id': 1}, {'example_json_params': '{"pro_uuid":"{pro_uuid}"}', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'id': 2}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80', 'id': 3}, {'example_json_params': '{"pro_uuid":"{pro_uuid}","name":"{name}"}', 'URL': 'http://127.0.0.1:5000/user/httpbinitem/{item}?age={age}', 'test_descript': 'test', 'method': 'post_json', 'infa_name': '接口', 'test_params': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10', 'except_descript': 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;(-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid = \'"639350e7-5226-444a-b2ba-139fe7211453"\' and id = 1___null___null___null___10___db-):(-http://127.0.0.1:5000/user/httpbin-);', 'id': 4}]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d']]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}"}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:31] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'desc': ['http://127.0.0.1:5000/user/httpbin', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:56:50 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:56:50] "POST /user/httpbin HTTP/1.1" 200 -
-2018-12-27 17:56:50 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbin HTTP/1.1" 200 104
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
-
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
-
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"args":"","code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}
-
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'desc': {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid'], {}]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:818] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}], datetime.datetime(2018, 12, 27, 17, 56, 50, 532725)], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'desc': [[], 'pass'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:894] ['"e78d7820-90f8-4938-8820-357e73f8309c"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 56, 50, 532725)]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"e78d7820-90f8-4938-8820-357e73f8309c"', 'httpbin', 'V0.1', 1, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbin', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 56, 50, 532725)]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', 'xiaomin', '80']]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['name', 'age']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {name}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age={age}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {age}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}"}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {pro_uuid}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:851] {'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', 'xiaomin']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:659] {'desc': ['http://127.0.0.1:5000/user/httpbinitem/12?name=xiaomin&age=80', {'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'post_json'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:205] Starting new HTTP connection (1): 127.0.0.1:5000
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\App\user_views.py [line:52] 12
-2018-12-27 17:56:50 F:\zhy\development\env_work\lib\site-packages\werkzeug\_internal.py [line:88] 127.0.0.1 - - [27/Dec/2018 17:56:50] "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 -
-2018-12-27 17:56:50 F:\zhy\development\env_work\lib\site-packages\urllib3\connectionpool.py [line:393] http://127.0.0.1:5000 "POST /user/httpbinitem/12?name=xiaomin&age=80 HTTP/1.1" 200 154
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:702] {"pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:707] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:223] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:224] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] name
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] age
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:229] pro_uuid
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:293] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:712] {"item":"12","result":{"args":{"age":"80","name":"xiaomin"},"code":100,"form":"","json":{"pro_uuid":"8ec27d3b-db28-49ac-b1ce-16dee1844f4d"},"msg":"suc"}}
-
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:713] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:863] {'desc': {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:723] {'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:728] [{'name': 'xiaomin', 'age': '80', 'pro_uuid': '8ec27d3b-db28-49ac-b1ce-16dee1844f4d'}, ['pro_uuid', 'name', 'age'], {}]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1313] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1314] <class 'str'>
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:818] [{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:865] {'desc': [[{'code': 1, 'msg': 'suc', 'pro': 'pro_uuid'}, {'code': 1, 'msg': 'suc', 'pro': 'name'}, {'code': 1, 'msg': 'suc', 'pro': 'age'}], datetime.datetime(2018, 12, 27, 17, 56, 50, 659644)], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:872] {'desc': [[], 'pass'], 'code': 1, 'ErroCode': None, 'Msg': 'Suc'}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:894] ['"e78d7820-90f8-4938-8820-357e73f8309c"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 56, 50, 659644)]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:896] ['"e78d7820-90f8-4938-8820-357e73f8309c"', 'httpbin', 'V0.1', 2, '接口', 'post_json', 'http://127.0.0.1:5000/user/httpbinitem/12?name={name}&age={age}', 'test', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', 'pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:xiaomin;age:80', '"{\\"pro_uuid\\":\\"{pro_uuid}\\"}"', '{"ErroCode": null, "Msg": "Suc", "code": 1, "desc": {"age": "80", "name": "xiaomin", "pro_uuid": "8ec27d3b-db28-49ac-b1ce-16dee1844f4d"}}', 'pass', '[]', datetime.datetime(2018, 12, 27, 17, 56, 50, 659644)]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:846] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:40] pro_uuid:8ec27d3b-db28-49ac-b1ce-16dee1844f4d;name:小明;age:80;item:10
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['pro_uuid', '8ec27d3b-db28-49ac-b1ce-16dee1844f4d']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['name', '小明']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['age', '80']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\compatibility.py [line:23] ['item', '10']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:168] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:46] [['pro_uuid', 'name', 'age', 'item'], ['8ec27d3b-db28-49ac-b1ce-16dee1844f4d', '小明', '80', '10']]
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:59] ['item', 'age']
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {age}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/{item}?age=80
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {item}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:74] http://127.0.0.1:5000/user/httpbinitem/10?age=80
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:323] {"pro_uuid":"{pro_uuid}","name":"{name}"}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1271] {name}
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1273] key_dict in str_data
-2018-12-27 17:56:50 F:\zhy\development\verify_v2.04\libs\view_params_deal.py [line:1275] {"pro_uuid":"{pro_uuid}","name":"小明"}
