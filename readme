@@ -22,19 +22,25 @@ http://192.168.2.10:8088/user/resultDBFILE/
 2、增加数据库表
 3、
 
-使用"___"隔开
-数据库
-用户名，密码，host，port，db，查询值，dt，键，值，时间，db
-root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid='639350e7-5226-444a-b2ba-139fe7211453' and id = 1___null___null___null___10___db
-如果使用sql语句查询，则dt，键，值，等于Null
-文件
-ip,用户名，密码，cmd,正则表达式，文件是否本地，时间，file
-127.0.0.1___zhy___xyz.1117___type E:/mysql_log.log___system_choice___C:\Program Files\MySQL\(.*?)5.7\___local___10___file   MySQL Server
-127.0.0.1___zhy___xyz.1117___E:/mysql_log.log___windows___C:\Program Files\MySQL\(.*?)5.7\___local___10___file   MySQL Server
+使用"___"隔开，（-contents-）标识符
+数据库校验
+用户名，密码，host，port，db，查询字段，数据库表，条件键，条件值，控制提取校验值时间，最后字段：db
+示例1：root___123456___127.0.0.1___3307___htai___select infa_url from new_report_test where uuid='639350e7-5226-444a-b2ba-139fe7211453' and id = 1___null___null___null___10___db：
+示例2：root___123456___127.0.0.1___3307___htai___infa_url___new_report_test___uuid___'639350e7-5226-444a-b2ba-139fe7211453'___10___db：
+如果使用sql语句查询，则dt，键，值可以写成Null，查询字段写成sql语句
+文件校验
+host,用户名，密码，命令行查取文件内容cmd,服务器操作系统，正则表达式，文件是否本地，时间，file
+示例1：127.0.0.1___zhy___xyz.1117___type E:/mysql_log.log___windows___C:\Program Files\MySQL\(.*?)5.7\___local___10___file：MySQL Server
+示例2：192.168.2.10___root___hanshow___cat /home/zhy/mysql_log.log___linux___C:\Program Files\MySQL\(.*?)5.7\___remote___10___file ：MySQL Server
+示例3：192.168.2.17___hanshow___hanshow___type C:\\mysql_log.log___windows___C:\Program Files\MySQL\(.*?)5.7\___remote___10___file: MySQL Server
 文件是否本地  local/remote
+务器操作系统  Windows/Linux
+命令行查取文件内容cmd
+    Windows ：type C:\\mysql_log.log
+    Linux   ：cat /home/zhy/mysql_log.log
 如果为local
-IP，用户名，密码为null
-cmd 为文件path
+    IP，用户名，密码为null
+    cmd 为文件path
 
 待解决：
 预期参数分析时，如果参数存在；会导致解析错误
