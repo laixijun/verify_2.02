@@ -199,14 +199,14 @@ class SoursDeal(object):
 					time=int(except_name_single_list[-2])
 					compare_data = except_descript_list[1][except_value_index]
 					except_value_index += 1
-					if except_name_single_list[7] =="file":
+					if except_name_single_list[-1] =="file":
 						func = FileAssert().fileAssertMain
 						timer = threading.Timer(time, func,(
 						except_name_single_list[0], except_name_single_list[1], except_name_single_list[2],
-						except_name_single_list[3],except_name_single_list[4], except_name_single_list[5],compare_data, uuid, project_name, project_version, id, infa_url,
+						except_name_single_list[3],except_name_single_list[4], except_name_single_list[5],except_name_single_list[6],compare_data, uuid, project_name, project_version, id, infa_url,
 						test_descript))
 						timer.start()
-					elif except_name_single_list[10] =="db":
+					elif except_name_single_list[-1] =="db":
 						port=int(except_name_single_list[3])
 						MA=MysqlAssert(USER=except_name_single_list[0],PASSWD=except_name_single_list[1],
 									   HOST=except_name_single_list[2],PORT=port,DB=except_name_single_list[4])

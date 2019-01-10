@@ -43,8 +43,12 @@ class ERRRecord:
 	REMOTEFILECONTENTNO = 8012
 
 	# file日志文件正则匹配为空
-	REMOTEFILERECONTENT = "远程读取日志文件为空"
+	REMOTEFILERECONTENT = "日志文件正则匹配为空"
 	REMOTEFILERECONTENTNO = 8013
+
+	# file日志文件正则匹配值对比非字符串
+	REMOTEFILERECOMPCONTENT = "日志匹配值对比非字符串"
+	REMOTEFILERECOMPCONTENTNO = 8014
 
 	# mysql测试数据读取失败
 	REMOTEMYSQL="mysql测试数据读取失败"

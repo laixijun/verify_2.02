@@ -22,8 +22,8 @@ def create_app():
 	# 注册蓝图
 	app.register_blueprint(blueprint=user_blueprint, url_prefix='/user')
 	# 配置mysql数据库
-	app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@127.0.0.1:3307/htai'
-	# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@127.0.0.1:3306/Htai'
+	app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@127.0.0.1:3306/htai'
+	#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@127.0.0.1:3306/Htai'
 	app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 	#配置json中文
 	app.config['JSON_AS_ASCII'] = False

@@ -2,7 +2,7 @@ from flask import json
 
 from App.models import ExtraDbFile
 from libs.error_code import success_desc, false_desc, ReturnDesc, ERRRecord
-from libs.tools import RemoteSource
+from libs.tools import RemoteSource, ServerByPara
 import re
 
 from log.logging_file_console import logger
@@ -24,6 +24,8 @@ class FileAssert:
 					return success_desc(desc="pass")
 				elif compared_data != compare_data:
 					return success_desc(desc="fail")
+		else:
+			return ReturnDesc(desc=ERRRecord.REMOTEFILERECOMPCONTENT, code=ERRRecord.REMOTEFILERECOMPCONTENTNO).false_desc()
 
 	#本地日志文件获取
 	def getLocalSource(self,path):
@@ -32,9 +34,9 @@ class FileAssert:
 		return success_desc(desc=lyric)
 	# 实际值的处理
 	# ['6\n1234']
-	def actulDeal(self,ip, username, passwd, cmd,regular,whereis):
+	def actulDeal(self,ip, username, passwd, cmd,system_choice,regular,whereis):
 		if whereis =="remote":
-			actul_all=RemoteSource().ssh(ip=ip, username=username, passwd=passwd, cmd=cmd)
+			actul_all=ServerByPara(ip=ip, username=username, passwd=passwd, cmd=cmd, system_choice=system_choice).run()
 			logger.debug(actul_all)
 		else:
 			actul_all =self.getLocalSource(path=cmd)
@@ -55,17 +57,17 @@ class FileAssert:
 			return actul_all
 
 
-	def fileAssertMain(self,ip, username, passwd, cmd,regular,whereis,compare_data,uuid,project_name,project_version,id,infa_url,test_descript):
+	def fileAssertMain(self,ip, username, passwd, cmd,system_choice,regular,whereis,compare_data,uuid,project_name,project_version,id,infa_url,test_descript):
 		from utils.functions import create_app
 		app = create_app()
 		ctx = app.app_context()
 		ctx.push()
-		item=self.actulDeal(ip, username, passwd, cmd,regular,whereis)
+		item=self.actulDeal(ip, username, passwd, cmd,system_choice,regular,whereis)
 		logger.debug(item)
 		if item["code"]==1:
 			item=item["desc"][0]
 			result=self.compareFile(compared_data=item,compare_data=compare_data)
-			exe_result=json.dumps(success_desc(desc="db_pass"))
+			exe_result=json.dumps(success_desc(desc="file_pass"))
 			if result["code"]==1:
 				file_item=compare_data
 				file_compare_result=result["desc"]
@@ -78,9 +80,19 @@ class FileAssert:
 				ExtraDbFile.instert_db(uuid=uuid, project_name=project_name, project_version=project_version, id=id,
 										 infa_url=infa_url, test_descript=test_descript,  exe_result=exe_result)
 		elif item["code"]==0:
-			exe_result=json.dumps(item,ensure_ascii=False)
-			ExtraDbFile.instert_db(uuid=uuid, project_name=project_name, project_version=project_version, id=id,
-										 infa_url=infa_url, test_descript=test_descript,  exe_result=exe_result)
+			if item["ErroCode"]==8013:
+				file_item = compare_data
+				file_compare_result = "fail"
+				file_actul_result = item["desc"]
+				exe_result = json.dumps(success_desc(desc="file_pass"))
+				ExtraDbFile.instert_file(uuid=uuid, project_name=project_name, project_version=project_version, id=id,
+				                         infa_url=infa_url, test_descript=test_descript, file_item=file_item,
+				                         file_compare_result=file_compare_result, file_actul_result=file_actul_result,
+				                         exe_result=exe_result)
+			else:
+				exe_result=json.dumps(item,ensure_ascii=False)
+				ExtraDbFile.instert_db(uuid=uuid, project_name=project_name, project_version=project_version, id=id,
+											 infa_url=infa_url, test_descript=test_descript,  exe_result=exe_result)
 
 if __name__ == "__main__":
 	cmd = ['cat /tmp/zhy/a.log']  # 你要执行的命令列表
